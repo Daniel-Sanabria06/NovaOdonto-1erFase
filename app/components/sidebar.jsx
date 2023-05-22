@@ -43,14 +43,14 @@ const Sidebar = () => {
                         Servicios
                         </Link>
                             <div className="dropdown-menu text-center mx-5 bg-black5" aria-labelledby="navbarDropdown">
-                                <Link className="dropdown-item text-white mb-3 fs-2" to='/diseño'>Diseño Sonrisa</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/ortodoncia'>Ortodoncia</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/acido'>Ácido Hialurónico</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/botox'>Botox</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/rehabilitacion'>Rehabilitación Oral</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/bichectomia'>Bichectomía</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/endodoncia'>Endodoncia</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/cirugia'>Cirugía Oral</Link>
+                                <Link className="dropdown-item text-white mb-3 fs-2" to='/servicios/diseño'>Diseño Sonrisa</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/ortodoncia'>Ortodoncia</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/acido'>Ácido Hialurónico</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/botox'>Botox</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/rehabilitacion'>Rehabilitación Oral</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/bichectomia'>Bichectomía</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/endodoncia'>Endodoncia</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/cirugia'>Cirugía Oral</Link>
                             </div>
                         </li>
 

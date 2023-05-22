@@ -68,7 +68,7 @@ const Index = () => {
 
           <div className="marcas-grid text-center mt-5">
           
-            <Link className='marca text-center' to="/diseño">
+            <Link className='marca text-center' to="/servicios/diseño">
               <img src={diseñoResina} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Diseño en Resina</p>
@@ -76,7 +76,7 @@ const Index = () => {
               </div>
              </Link>
           
-            <Link className='marca text-center' to="/ortodoncia">
+            <Link className='marca text-center' to="/servicios/ortodoncia">
               <img src={diseñoResina} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Ortodoncia</p>
@@ -84,7 +84,7 @@ const Index = () => {
               </div>
             </Link>
           
-            <Link className='marca text-center' to="/acido">
+            <Link className='marca text-center' to="/servicios/acido">
               <img src={diseñoResina} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Ácido Hialurónico</p>
@@ -92,7 +92,7 @@ const Index = () => {
               </div>
             </Link>   
 
-            <Link className='marca text-center' to="/botox">
+            <Link className='marca text-center' to="/servicios/botox">
               <img src={diseñoResina} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Botox</p>
@@ -100,7 +100,7 @@ const Index = () => {
               </div>
             </Link> 
 
-            <Link className='marca text-center' to="/rehabilitacion">
+            <Link className='marca text-center' to="/servicios/rehabilitacion">
               <img src={diseñoResina} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Rehabilitación Oral</p>
@@ -108,7 +108,7 @@ const Index = () => {
               </div>
             </Link> 
 
-            <Link className='marca text-center' to="/bichectomia">
+            <Link className='marca text-center' to="/servicios/bichectomia">
               <img src={diseñoResina} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Bichectomía</p>

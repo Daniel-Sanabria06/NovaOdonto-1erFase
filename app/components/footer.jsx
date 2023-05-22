@@ -56,37 +56,37 @@ function Footer() {
                             <div className="row text-center">
 
                                 <div className="col-6 mt-3">
-                                    <Link className='my-1' to="/diseño">
+                                    <Link className='my-1' to="/servicios/diseño">
                                         <p className='h5 my-4'>Diseño de Sonrisa</p>
                                     </Link>
 
-                                    <Link to="/ortodoncia">
+                                    <Link to="/servicios/ortodoncia">
                                       <p className='h5 my-4'>Ortodoncia</p>
                                     </Link>
 
-                                    <Link to="/acido">
+                                    <Link to="/servicios/acido">
                                       <p className='h5 my-4'>Ácido Hialurónico</p>
                                     </Link>
 
-                                    <Link to="/botox">
+                                    <Link to="/servicios/botox">
                                       <p className='h5 my-4'>Botox</p>
                                     </Link>
                                 </div>
 
                                 <div className="col-6 mt-3">
-                                    <Link to="/rehabilitacion">
+                                    <Link to="/servicios/rehabilitacion">
                                       <p className='h5 my-4'>Rehabilitación</p>
                                     </Link>
 
-                                    <Link to="/bichectomia">
+                                    <Link to="/servicios/bichectomia">
                                       <p className='h5 my-4'>Bichectomía</p>
                                     </Link>
 
-                                    <Link to="/endodoncia">
+                                    <Link to="/servicios/endodoncia">
                                       <p className='h5 my-4'>Endodoncia</p>
                                     </Link>
 
-                                    <Link to="/cirugia">
+                                    <Link to="/servicios/cirugia">
                                       <p className='h5 my-4'>Cirugía Oral</p>
                                     </Link>
                                 </div>

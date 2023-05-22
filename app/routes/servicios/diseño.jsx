@@ -1,20 +1,16 @@
 import { useLoaderData } from "react-router"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router'
-import AlertaPromocion from "../components/alertaPromocion"
+import AlertaPromocion from "../../components/alertaPromocion"
 
 import { Link } from "react-router-dom"
-import Ayd from "../components/ayd"
-import resina1 from '../../public/img/Diseñoresina/resina1.jpeg'
-import resina2 from '../../public/img/Diseñoresina/resina2.jpeg'
-import resina3 from '../../public/img/Diseñoresina/resina3.jpeg'
-import resina4 from '../../public/img/Diseñoresina/resina4.jpeg'
+import Ayd from "../../components/ayd"
 import styles from '~/styles/marcas.css'
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Diseño En Resina',
-    description: 'Nova Odonto - Diseño En Resina'
+    title: 'Nova Odonto - Diseño de Sonrisa',
+    description: 'Nova Odonto - Diseño de Sonrisa'
   }
 }
 
@@ -51,7 +47,7 @@ const Diseño = () => {
           imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
         />
 
-<hr />
+        <hr />
 
           <div className="container contenedor">
 
@@ -73,54 +69,43 @@ const Diseño = () => {
 
             <hr className="my-5" />
 
-            <p className="h1 font-weight-bold text-center">
+            <p className="display-3 font-weight-bold text-center">
               Tipos de Diseño de Sonrisa
             </p>
 
-            <div className='container text-center my-5 carruselpromocion'>
-                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                  <div className="carousel-inner">
-                    <div className="carousel-item active text-center mx-auto imagenesCarrusel">
-                   
-                      <div className="row">
-                          <Link className="col-6" to="/">
-                            <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
-                          <p className="pcarrusel enlacecarrusel">Aclaramiento Dental</p>
-                          </Link>
-                          <Link className="col-6">
-                          <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
-                            <p className="pcarrusel enlacecarrusel">Perfeccionamiento Dental</p>
-                          </Link>
-                      </div>
-                      
-                    </div>
 
-                    <div className="carousel-item">
-                       
-                    <div className="row">
-                          <Link className="col-6">
-                             <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
-                              <p className="pcarrusel enlacecarrusel">Carillas en Resina</p>
-                          </Link>
-                          <Link className="col-6">
-                              <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
-                                <p className="pcarrusel enlacecarrusel">Lentes Cerámicos</p>
-                          </Link>
-                          </div>
-                    </div>
-
-                  </div>
-                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon mr-5" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                  </button>
-                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span className="carousel-control-next-icon ml-5" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                  </button>
-                </div>
+            <div className="row text-center my-5">
+              <div className="col-12 col-md-3 mb-5">
+                <Link className="text-decoration-none my-5" to="/">
+                  <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                  <p className="pcarrusel enlacecarrusel my-5">Aclaramiento Dental</p>
+                  <Link className='botonCita mb-5 mt-3' to="/servicios/tiposDiseño/aclaramiento">Ver Más</Link>
+                </Link>
+              </div>
+              <div className="col-12 col-md-3 mb-5">
+                <Link className="text-decoration-none">
+                  <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                  <p className="pcarrusel enlacecarrusel my-5">Perfeccionamiento Dental</p>
+                  <Link className='botonCita mb-5 mt-3' to="/servicios/tiposDiseño/perfeccionamiento">Ver Más</Link>
+                </Link>
+              </div>
+              <div className="col-12 col-md-3 mb-5">
+                <Link className="text-decoration-none">
+                  <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                  <p className="pcarrusel enlacecarrusel my-5">Carillas en Resina</p>
+                  <Link className='botonCita mb-5 mt-3' to="/servicios/tiposDiseño/carillas">Ver Más</Link>
+                </Link>
+              </div>
+              <div className="col-12 col-md-3 mb-5">
+                <Link className="text-decoration-none">
+                  <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                  <p className="pcarrusel enlacecarrusel my-5">Lentes Cerámicos</p>
+                  <Link className='botonCita mb-5 mt-3' to="/servicios/tiposDiseño/lentesCeramicos">Ver Más</Link>
+                </Link>
+              </div>
             </div>
 
+         
             <div className="row contenedor container d-flex align-items-center">
               <div className="col-12 col-sm-6">
                   <p className="display-3 font-weight-bold ">Beneficios del <strong>Diseño de Sonrisa</strong></p>

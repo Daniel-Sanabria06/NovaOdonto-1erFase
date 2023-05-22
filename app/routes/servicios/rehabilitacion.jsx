@@ -1,11 +1,13 @@
+import { useLoaderData } from "react-router"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+
 import styles from '~/styles/marcas.css'
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Ácido Hialurónico',
-    description: 'Nova Odonto - Ácido Hialurónico'
+    title: 'Nova Odonto - rehabilitacion',
+    description: 'Nova Odonto - rehabilitacion'
   }
 }
 
@@ -18,7 +20,7 @@ export function links() {
     ]
 }
 
-const Acido = () => {
+const rehabilitacion = () => {
 
   const location = useLocation()
 
@@ -26,18 +28,17 @@ const Acido = () => {
     window.scrollTo(0, 0)
   }, [location.pathname])
 
-    //TODO: imagenes acido y texto
+  //TODO: imagen y texto
 
   return (
     
     <main className="contenedor">
 
-      <h2 className="heading mb-1">Ácido Hialurónico</h2>
+      <h2 className="heading mb-1">Rehabilitación Oral</h2>
 
-    
 
     </main>
   )
 }
 
-export default Acido
+export default rehabilitacion
