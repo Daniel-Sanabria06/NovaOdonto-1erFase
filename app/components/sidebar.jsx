@@ -66,6 +66,10 @@ const Sidebar = () => {
                         <Link className="nav-link text-white" target="_blank" rel="noopener noreferrer" to='https://maps.app.goo.gl/vMNYGNkX91rn1VaT7?g_st=iw'>¿Cómo llegar?</Link >
                         </li>
 
+                        <li className="nav-item"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+                        <Link className="nav-link text-white" to='/nosotros'>Quiénes somos</Link >
+                        </li>
+
                 </ul>
 
                 </div>

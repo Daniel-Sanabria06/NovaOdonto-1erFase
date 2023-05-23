@@ -44,11 +44,11 @@ const Acido = () => {
 
             <h1 className="font-weight-bold my-5">¿Qué es el Ácido Hialurónico?</h1>
 
-            <p className="my-4">El ácido hialurónico es un compuesto natural que se utiliza en odontología para diversos fines estéticos y terapéuticos. Es una sustancia biocompatible y segura, ampliamente conocida por su capacidad para hidratar y rejuvenecer la piel.</p>
+            <p className="m-4">El ácido hialurónico es un compuesto natural que se utiliza en odontología para diversos fines estéticos y terapéuticos. Es una sustancia biocompatible y segura, ampliamente conocida por su capacidad para hidratar y rejuvenecer la piel.</p>
 
-            <p className="my-4">El ácido hialurónico se utiliza para tratar problemas como la falta de volumen en los labios, arrugas en la zona peribucal, líneas de expresión y pliegues nasolabiales. También se puede aplicar para mejorar la forma y contorno de las encías, corregir asimetrías faciales y suavizar cicatrices.</p>
+            <p className="m-4">El ácido hialurónico se utiliza para tratar problemas como la falta de volumen en los labios, arrugas en la zona peribucal, líneas de expresión y pliegues nasolabiales. También se puede aplicar para mejorar la forma y contorno de las encías, corregir asimetrías faciales y suavizar cicatrices.</p>
 
-            <p className="my-4">Si estás buscando mejorar la estética de tu sonrisa y rejuvenecer tu apariencia facial, el ácido hialurónico puede ser una opción adecuada. </p>
+            <p className="m-4">Si estás buscando mejorar la estética de tu sonrisa y rejuvenecer tu apariencia facial, el ácido hialurónico puede ser una opción adecuada. </p>
 
         </div>
 
