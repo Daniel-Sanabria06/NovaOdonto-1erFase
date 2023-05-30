@@ -1,6 +1,7 @@
 import Ayd from "../../../components/ayd"
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
+import perfec from '../../../../public/img/media/perfeccionamiento.jpeg'
 
 export function meta() {
   return {
@@ -24,10 +25,10 @@ const perfeccionamiento = () => {
 
       <h2 className="heading mb-5">Perfeccionamiento Dental</h2>
 
-      <Ayd
-          imagen="https://i.postimg.cc/vHPNGG7L/teeth-whitening-before-1.jpg"
-          imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
-        />
+      <div className="text-center">
+        <img className="w-50" src={perfec} alt="" />
+      </div>
+      
 
         <hr className="my-5" />
 

@@ -2,7 +2,11 @@ import { useLoaderData } from "react-router"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router'
 import AlertaPromocion from "../../components/alertaPromocion"
-
+import diseño from '../../../public/img/media/diseñosonrisa.jpg'
+import carillas from '../../../public/img/media/carillas.jpg'
+import diseño6 from '../../../public/img/media/diseño6.png'
+import lentes from '../../../public/img/media/lentes.jpg'
+import perfeccionamiento from '../../../public/img/media/perfeccionamiento.jpeg'
 import { Link } from "react-router-dom"
 import Ayd from "../../components/ayd"
 import styles from '~/styles/marcas.css'
@@ -42,12 +46,11 @@ const Diseño = () => {
 
         <h2 className="heading mb-5">Diseño de Sonrisa</h2>
 
-        <Ayd
-          imagen="https://i.postimg.cc/vHPNGG7L/teeth-whitening-before-1.jpg"
-          imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
-        />
+        <div className="text-center">
+           <img className="marcaImagenw" src={diseño6} alt="" />
+        </div>
 
-        <hr />
+        <hr className="my-5" />
 
           <div className="container contenedor">
 
@@ -84,21 +87,21 @@ const Diseño = () => {
               </div>
               <div className="col-12 col-md-3 mb-5">
                 <Link className="text-decoration-none">
-                  <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                  <img src={perfeccionamiento} alt="" />
                   <p className="pcarrusel enlacecarrusel my-5">Perfeccionamiento Dental</p>
                   <Link className='botonCita mb-5 mt-3' to="/servicios/tiposDiseño/perfeccionamiento">Ver Más</Link>
                 </Link>
               </div>
               <div className="col-12 col-md-3 mb-5">
                 <Link className="text-decoration-none">
-                  <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                  <img src={carillas} alt="" />
                   <p className="pcarrusel enlacecarrusel my-5">Carillas en Resina</p>
                   <Link className='botonCita mb-5 mt-3' to="/servicios/tiposDiseño/carillas">Ver Más</Link>
                 </Link>
               </div>
               <div className="col-12 col-md-3 mb-5">
                 <Link className="text-decoration-none">
-                  <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                  <img src={lentes} alt="" />
                   <p className="pcarrusel enlacecarrusel my-5">Lentes Cerámicos</p>
                   <Link className='botonCita mb-5 mt-3' to="/servicios/tiposDiseño/lentesCeramicos">Ver Más</Link>
                 </Link>
@@ -122,7 +125,7 @@ const Diseño = () => {
               </div>
 
               <div className="col-12 col-sm-6">
-                <img className="imagenContenido my-5" src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                <img src={diseño} className='imagenContenido my-5' alt="Diseño en resina" />
               </div>
             </div>
 

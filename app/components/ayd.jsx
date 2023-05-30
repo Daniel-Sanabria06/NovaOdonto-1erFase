@@ -1,7 +1,3 @@
-
-import resina1 from '../../public/img/Diseñoresina/resina1.jpeg'
-import resina2 from '../../public/img/Diseñoresina/resina2.jpeg'
-
 function Slide(
  { imagen,imagen2}
   ) {

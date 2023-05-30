@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import Marca from "~/components/marca"
+import ciru from "../../../public/img/media/cirugia.jpg"
 import styles from '~/styles/marcas.css'
 
 export function meta() {
@@ -35,6 +35,15 @@ const Cirugia = () => {
     <main className="contenedor">
 
       <h2 className="heading mb-1">Cirugías Orales</h2>
+
+      <div className="text-center my-5">
+        <img className="w-50" src={ciru} alt="" />
+      </div>
+    
+
+    <div className="my-5 contenedor text-center">
+      <p className="my-5 font-weight-bold">Extracción de Cordales – Injerto de Hueso – Frenillectomía Gingivoplastia (recorte de encía) – Implantología.</p>
+    </div>
 
       
     </main>

@@ -2,6 +2,7 @@
 import Ayd from "../../../components/ayd"
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
+import carillas from '../../../../public/img/media/carillas.jpg'
 
 export function meta() {
   return {
@@ -25,11 +26,9 @@ const Carillas = () => {
 
       <h2 className="heading mb-5">Carillas en Resina</h2>
 
-      <Ayd
-          imagen="https://i.postimg.cc/vHPNGG7L/teeth-whitening-before-1.jpg"
-          imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
-        />
-
+      <div className="text-center">
+        <img className="w-50" src={carillas} alt="" />
+      </div>
         <hr className="my-5" />
 
             <div className="text-center quees contenedor">

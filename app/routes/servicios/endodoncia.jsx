@@ -1,7 +1,7 @@
 import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import Marca from "~/components/marca"
+import endodo from "../../../public/img/media/endodoncia.jpg"
 import styles from '~/styles/marcas.css'
 
 export function meta() {
@@ -36,10 +36,9 @@ const Endodoncia = () => {
 
       <h2 className="heading mb-1">Endodoncia</h2>
 
-      <Ayd
-          imagen="https://i.postimg.cc/vHPNGG7L/teeth-whitening-before-1.jpg"
-          imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
-        />
+      <div className="text-center my-5">
+        <img className="w-50" src={endodo} alt="" />
+      </div>
     
         <div className="text-center quees contenedor">
 

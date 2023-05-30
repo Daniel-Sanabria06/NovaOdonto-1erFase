@@ -25,10 +25,9 @@ const lentesCeramicos = () => {
 
       <h2 className="heading mb-5">Lentes Cerámicos</h2>
 
-      <Ayd
-          imagen="https://i.postimg.cc/vHPNGG7L/teeth-whitening-before-1.jpg"
-          imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
-        />
+      <div className="text-center">
+        <img className="w-50" src="https://staticnew-prod.topdoctors.cl/files/Image/large/d529beb01e52ad94e7c4a112cbc0fee9.jpeg" alt="" />
+      </div>
 
         <hr className="my-5" />
 

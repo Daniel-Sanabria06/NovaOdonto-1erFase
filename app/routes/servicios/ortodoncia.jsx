@@ -3,7 +3,11 @@ import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
-import { Link } from "@remix-run/react"
+import brackets0 from '../../../public/img/media/brackets0.jpg'
+import brackets1 from '../../../public/img/media/BRACKETS.jpg'
+import brackets2 from '../../../public/img/media/bracketsCeramicos.jpg'
+import brackets3 from '../../../public/img/media/bracketsInvisibles.jpg'
+
 
 export function meta() {
   return {
@@ -37,12 +41,10 @@ const Ortodoncia = () => {
 
       <h2 className="heading mb-5">Ortodoncia</h2>
 
-     
-      <Ayd
-          imagen="https://i.postimg.cc/vHPNGG7L/teeth-whitening-before-1.jpg"
-          imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
-        />
-
+     <div className="contenedor text-center">
+     <img className="w-75" src={brackets0} alt="" />
+     </div>
+   
 
           <div className="text-center quees contenedor">
 
@@ -69,15 +71,15 @@ const Ortodoncia = () => {
               <div className="row text-center">
 
                   <div className="col-12 col-md-4 mb-5">
-                    <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                    <img src={brackets1} alt="" />
                     <p className="pcarrusel enlacecarrusel my-5">Brackets Metálicos</p>
                   </div>
                   <div className="col-12 col-md-4 mb-5">
-                    <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                    <img src={brackets2} alt="" />
                     <p className="pcarrusel enlacecarrusel my-5">Brackets Invisibles</p>
                   </div>
                   <div className="col-12 col-md-4 mb-5">
-                    <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
+                    <img src={brackets3} alt="" />
                     <p className="pcarrusel enlacecarrusel my-5">Brackets Cerámicos</p>
                   </div>
 

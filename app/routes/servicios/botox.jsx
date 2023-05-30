@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
 import Ayd from "../../components/ayd"
+import botox from "../../../public/img/media/botox.jpg"
 
 export function meta() {
   return {
@@ -35,10 +36,9 @@ const Botox = () => {
 
       <h2 className="heading mb-1">Botox</h2>
 
-      <Ayd
-          imagen="https://i.postimg.cc/vHPNGG7L/teeth-whitening-before-1.jpg"
-          imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
-        />
+      <div className="text-center my-5">
+        <img className="w-50" src={botox} alt="" />
+      </div>
     
         <div className="text-center quees contenedor">
 

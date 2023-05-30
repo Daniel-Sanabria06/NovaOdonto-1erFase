@@ -2,6 +2,7 @@ import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
+import bichec from "../../../public/img/media/bichectomia.jpg"
 
 export function meta() {
   return {
@@ -33,10 +34,9 @@ const Bichectomía = () => {
 
       <h2 className="heading mb-1">Bichectomía</h2>
 
-      <Ayd
-          imagen="https://i.postimg.cc/vHPNGG7L/teeth-whitening-before-1.jpg"
-          imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
-        />
+      <div className="text-center my-5">
+        <img className="w-50" src={bichec} alt="" />
+      </div>
     
         <div className="text-center quees contenedor">
 

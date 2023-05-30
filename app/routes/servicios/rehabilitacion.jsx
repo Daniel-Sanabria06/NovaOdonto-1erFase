@@ -1,6 +1,7 @@
 import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import reha from "../../../public/img/media/rehabilitacion.jpg"
 
 import styles from '~/styles/marcas.css'
 
@@ -36,11 +37,10 @@ const rehabilitacion = () => {
 
       <h2 className="heading mb-1">Rehabilitación Oral</h2>
 
-      <Ayd
-          imagen="https://i.postimg.cc/vHPNGG7L/teeth-whitening-before-1.jpg"
-          imagen2="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg"
-        />
-    
+      <div className="text-center my-5">
+        <img className="w-50" src={reha} alt="" />
+      </div>
+
         <div className="text-center quees contenedor">
 
             <h1 className="font-weight-bold my-5">¿En qué Consiste?</h1>
