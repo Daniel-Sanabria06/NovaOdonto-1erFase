@@ -47,29 +47,9 @@ const Index = () => {
 
     <main className="contenedor">
 
-            <div className='container text-center my-5 carruselpromocion'>
-                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                  <div className="carousel-inner">
-                    <div className="carousel-item active text-center mx-auto imagenesCarrusel">
-                      <img src={banner} className="" alt="..."/>
-                    </div>
-                    <div className="carousel-item">
-                      <img src={banner} className="" alt="..."/>
-                    </div>
-                    <div className="carousel-item">
-                      <img src={banner} className="" alt="..."/>
-                    </div>
-                  </div>
-                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                  </button>
-                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                  </button>
-                </div>
-            </div>
+    <div className="w-75 contenedor container text-center mx-auto imagenesCarrusel">
+      <img src={banner} className="" alt="..."/>
+    </div>
 
           <hr />
 

@@ -4,7 +4,11 @@ import { useLocation } from 'react-router'
 import AlertaPromocion from "../../components/alertaPromocion"
 import diseño from '../../../public/img/media/diseñosonrisa.jpg'
 import carillas from '../../../public/img/media/carillas.jpg'
-import diseño6 from '../../../public/img/media/diseño6.png'
+import diseño1 from '../../../public/img/clientesdiseño/Image1.jpeg'
+import diseño2 from '../../../public/img/clientesdiseño/image2.jpeg'
+import diseño3 from '../../../public/img/clientesdiseño/image3.jpeg'
+import diseño4 from '../../../public/img/clientesdiseño/image4.jpeg'
+import diseño5 from '../../../public/img/clientesdiseño/Image.jpeg'
 import lentes from '../../../public/img/media/lentes.jpg'
 import perfeccionamiento from '../../../public/img/media/perfeccionamiento.jpeg'
 import { Link } from "react-router-dom"
@@ -46,8 +50,36 @@ const Diseño = () => {
 
         <h2 className="heading mb-5">Diseño de Sonrisa</h2>
 
-        <div className="text-center">
-           <img className="marcaImagenw" src={diseño6} alt="" />
+        <div className="contenedor text-center w-75 my-5">
+
+          <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img className="d-block w-100" src={diseño1} alt="First slide"/>
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100" src={diseño2} alt="Second slide"/>
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100" src={diseño3} alt="Third slide"/>
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100" src={diseño4} alt="Third slide"/>
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100" src={diseño5} alt="Third slide"/>
+              </div>
+            </div>
+            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
+
         </div>
 
         <hr className="my-5" />
