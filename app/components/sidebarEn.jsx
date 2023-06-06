@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
     <>
 
-        <div className="row d-flex mb-2">
+        <div className="row d-flex mb-3">
 
             <div className="col ml-4">
                <div className="ml-1">
