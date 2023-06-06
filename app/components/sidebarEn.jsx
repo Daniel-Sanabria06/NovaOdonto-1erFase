@@ -12,7 +12,7 @@ const Sidebar = () => {
 
             <div className="col ml-4">
                <div className="ml-1">
-                    <Link to='en/home' className="text-center">
+                    <Link to='https://novaodonto.vercel.app/en/home' className="text-center">
                     <img className='logo mt-2' src={logo} alt="imagen logo"/>
                     </Link>
                 </div>
@@ -37,7 +37,7 @@ const Sidebar = () => {
                     <hr className="hr1"/>
 
                     <li className="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
-                        <Link className="nav-link text-white" to='/'>Home</Link >
+                        <Link className="nav-link text-white" to='https://novaodonto.vercel.app/en/home'>Home</Link >
                     </li>
 
                     <li className="nav-item dropdown" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
@@ -45,23 +45,23 @@ const Sidebar = () => {
                         Services
                         </Link>
                             <div className="dropdown-menu text-center mx-5 bg-black5" aria-labelledby="navbarDropdown">
-                                <Link className="dropdown-item text-white mb-3 fs-2" to='/servicios/diseño'>Smile Design</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/ortodoncia'>Orthodontics</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/acido'>Hyaluronic Acid</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/botox'>Botox</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/rehabilitacion'>Oral Rehabilitation</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/bichectomia'>Bichectomy</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/endodoncia'>Endodontics</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/cirugia'>Oral Surgery</Link>
+                                <Link className="dropdown-item text-white mb-3 fs-2" to='https://novaodonto.vercel.app/servicios/diseñoEn'>Smile Design</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/ortodonciaEn'>Orthodontics</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/acidoEn'>Hyaluronic Acid</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/botoxEn'>Botox</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/rehabilitacionEn'>Oral Rehabilitation</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/bichectomiaEn'>Bichectomy</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/endodonciaEn'>Endodontics</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/cirugiaEn'>Oral Surgery</Link>
                             </div>
                         </li>
 
                         <li className="nav-item"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
-                        <Link className="nav-link text-white" to='/contacto'>Contact</Link >
+                        <Link className="nav-link text-white" to='https://novaodonto.vercel.app/contacto'>Contact</Link >
                         </li>
 
                         <li className="nav-item"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
-                        <Link className="nav-link text-white" to='/clientesFelices'>Happy Customers</Link >
+                        <Link className="nav-link text-white" to='https://novaodonto.vercel.app/clientesFelices'>Happy Customers</Link >
                         </li>
 
                         <li className="nav-item"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">

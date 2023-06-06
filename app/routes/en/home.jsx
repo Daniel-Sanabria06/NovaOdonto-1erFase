@@ -96,7 +96,7 @@ const Index = () => {
               </div>
             </Link> 
 
-            <Link className='marca text-center' to="/servicios/rehabilitacion">
+            <Link className='marca text-center' to="/servicios/rehabilitacionEn">
               <img src={rehabilitacion} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Oral Rehabilitation</p>
