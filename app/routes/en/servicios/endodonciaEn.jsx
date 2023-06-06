@@ -2,12 +2,12 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import endodo from "../../../../public/img/media/endodoncia.jpg"
 import styles from '~/styles/marcas.css'
-import Header from '~/components/header'
+import Sidebar from "../../../components/sidebarEn"
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Endodoncia',
-    description: 'novaOdonto - Endodoncia'
+    title: 'Nova Odonto - Endodontics',
+    description: 'novaOdonto - Endodontics'
   }
 }
 
@@ -32,10 +32,12 @@ const Endodoncia = () => {
 
   return (
     <>
-   <Header/> 
+     <div className="header">
+       <Sidebar/>
+      </div> 
     <main className="contenedor">
 
-      <h2 className="heading mb-1">Endodoncia</h2>
+      <h2 className="heading mb-1">Endodontics</h2>
 
       <div className="text-center my-5">
         <img className="w-50" src={endodo} alt="" />
@@ -43,17 +45,16 @@ const Endodoncia = () => {
     
         <div className="text-center quees contenedor">
 
-            <h1 className="font-weight-bold my-5">¿En qué Consiste?</h1>
+        <h1 className="font-weight-bold my-5">What is it?</h1>
 
-            <p className="my-4">La endodoncia es un procedimiento odontológico especializado que se realiza cuando el tejido interno del diente, conocido como pulpa dental, está dañado o infectado, se remueve cuidadosamente la pulpa afectada, se limpian y desinfectan los conductos radiculares y se sellan para prevenir futuras infecciones.</p>
+        <p className="my-4">Endodontics is a specialized dental procedure that is performed when the internal tissue of the tooth, known as dental pulp, is damaged or infected. The affected pulp is carefully removed, the root canals are cleaned and disinfected, and then sealed to prevent future infections.</p>
 
-            <p className="my-4">Este procedimiento ayuda a salvar dientes, alivia el dolor y la incomodidad causados por la infección, la endodoncia restaura la función y estética del diente tratado. </p>
-
+        <p className="my-4">This procedure helps save teeth, relieves pain and discomfort caused by infection, and restores the function and aesthetics of the treated tooth.</p>
         </div>
 
           <div className="text-center my-5">
 
-            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
+            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Schedule your Appointment!</a>
 
            </div>
     </main>

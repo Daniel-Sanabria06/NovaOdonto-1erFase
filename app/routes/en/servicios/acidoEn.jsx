@@ -2,12 +2,12 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
 import acido from "../../../../public/img/media/acido.jpg"
-import Header from '~/components/header'
+import Sidebar from "../../../components/sidebarEn"
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Ácido Hialurónico',
-    description: 'Nova Odonto - Ácido Hialurónico'
+    title: 'Nova Odonto - Hyaluronic Acid',
+    description: 'Nova Odonto - Hyaluronic Acid'
   }
 }
 
@@ -32,10 +32,12 @@ const Acido = () => {
 
   return (
     <>
-    <Header/>
+      <div className="header">
+       <Sidebar/>
+      </div>
     <main className="contenedor">
 
-      <h2 className="heading mb-1">Ácido Hialurónico</h2>
+      <h2 className="heading mb-1">Hyaluronic Acid</h2>
       
       <div className="text-center my-5">
         <img className="w-50" src={acido} alt="" />
@@ -43,19 +45,19 @@ const Acido = () => {
     
         <div className="text-center quees contenedor">
 
-            <h1 className="font-weight-bold my-5">¿Qué es el Ácido Hialurónico?</h1>
+          <h1 className="font-weight-bold my-5">What is Hyaluronic Acid?</h1>
 
-            <p className="m-4">El ácido hialurónico es un compuesto natural que se utiliza en odontología para diversos fines estéticos y terapéuticos. Es una sustancia biocompatible y segura, ampliamente conocida por su capacidad para hidratar y rejuvenecer la piel.</p>
+          <p className="m-4">Hyaluronic acid is a natural compound used in dentistry for various aesthetic and therapeutic purposes. It is a biocompatible and safe substance, widely known for its ability to hydrate and rejuvenate the skin.</p>
 
-            <p className="m-4">El ácido hialurónico se utiliza para tratar problemas como la falta de volumen en los labios, arrugas en la zona peribucal, líneas de expresión y pliegues nasolabiales. También se puede aplicar para mejorar la forma y contorno de las encías, corregir asimetrías faciales y suavizar cicatrices.</p>
+          <p className="m-4">Hyaluronic acid is used to treat issues such as lack of volume in the lips, wrinkles in the perioral area, expression lines, and nasolabial folds. It can also be applied to improve the shape and contour of the gums, correct facial asymmetries, and smooth out scars.</p>
 
-            <p className="m-4">Si estás buscando mejorar la estética de tu sonrisa y rejuvenecer tu apariencia facial, el ácido hialurónico puede ser una opción adecuada. </p>
+          <p className="m-4">If you are looking to enhance the aesthetics of your smile and rejuvenate your facial appearance, hyaluronic acid may be a suitable option.</p>
 
         </div>
 
           <div className="text-center my-5">
 
-            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
+            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Schedule your Appointment!</a>
 
            </div>
 

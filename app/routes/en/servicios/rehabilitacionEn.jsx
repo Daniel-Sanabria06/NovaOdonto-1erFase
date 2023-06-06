@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import Header from '~/components/header'
+import Sidebar from "../../../components/sidebarEn"
 import imagenr1 from '../../../../public/img/rehabilitacion/image1.jpeg'
 import imagenr2 from '../../../../public/img/rehabilitacion/image2.jpeg'
 import imagenr3 from '../../../../public/img/rehabilitacion/image3.jpeg'
@@ -41,7 +41,9 @@ const rehabilitacion = () => {
   return (
     
     <>
-    <Header/>
+      <div className="header">
+       <Sidebar/>
+      </div>
     <main className="contenedor">
 
       <h2 className="heading mb-1">Oral rehabilitation</h2>

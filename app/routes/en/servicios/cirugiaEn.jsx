@@ -3,12 +3,12 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import ciru from "../../../../public/img/media/cirugia.jpg"
 import styles from '~/styles/marcas.css'
-import Header from '~/components/header'
+import Sidebar from "../../../components/sidebarEn"
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Cirugías Orales',
-    description: 'novaOdonto - Cirugías Orales'
+    title: 'Nova Odonto - Oral Surgery',
+    description: 'novaOdonto - Oral Surgery'
   }
 }
 
@@ -34,11 +34,13 @@ const Cirugia = () => {
   return (
     
     <>
-    <Header/>
+      <div className="header">
+       <Sidebar/>
+      </div>
 
     <main className="contenedor">
 
-      <h2 className="heading mb-1">Cirugías Orales</h2>
+      <h2 className="heading mb-1">Oral Surgery</h2>
 
       <div className="text-center my-5">
         <img className="w-50" src={ciru} alt="" />
@@ -46,7 +48,7 @@ const Cirugia = () => {
     
 
     <div className="my-5 contenedor text-center">
-      <p className="my-5 font-weight-bold">Extracción de Cordales – Injerto de Hueso – Frenillectomía Gingivoplastia (recorte de encía) – Implantología.</p>
+     <p className="my-5 font-weight-bold">Wisdom Teeth Extraction - Bone Graft - Frenectomy - Gingivoplasty (Gum Contouring) - Dental Implants.</p>
     </div>
       
     </main>

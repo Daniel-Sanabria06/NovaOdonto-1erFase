@@ -1,12 +1,12 @@
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
 import carillas from '../../../../../public/img/media/carillas.jpg'
-import Header from '~/components/header'
+import Sidebar from "../../../../components/sidebarEn"
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Carillas en Resina',
-    description: 'Nova Odonto - Carillas en Resina'
+    title: 'Nova Odonto - Resin Veneers',
+    description: 'Nova Odonto - Resin Veneers'
   }
 }
 
@@ -22,10 +22,12 @@ const Carillas = () => {
 
   return (
     <>
-    <Header/>
+      <div className="header">
+       <Sidebar/>
+      </div>
     <main className="contenedor">
 
-      <h2 className="heading mb-5">Carillas en Resina</h2>
+      <h2 className="heading mb-5">Resin Veneers</h2>
 
       <div className="text-center">
         <img className="w-50" src={carillas} alt="" />
@@ -34,19 +36,19 @@ const Carillas = () => {
 
             <div className="text-center quees contenedor">
 
-              <h1 className="font-weight-bold">¿Qué son las Carillas en Resina?</h1>
+              <h1 className="font-weight-bold">What are Resin Veneers?</h1>
 
-              <p className="my-4">Las carillas en resina son una solución estética altamente efectiva para mejorar la apariencia de los dientes. Son láminas delgadas de resina compuesta que se adhieren a la superficie de los dientes para corregir imperfecciones, como manchas, fracturas, desgaste o malformaciones.</p>
+              <p className="my-4">Resin veneers are a highly effective aesthetic solution for improving the appearance of teeth. They are thin layers of composite resin that are bonded to the surface of the teeth to correct imperfections such as stains, fractures, wear, or malformations.</p>
 
-              <p className="my-4">En este tratamiento se pueden personalizar según el color y la forma de los dientes naturales del paciente.</p>
+              <p className="my-4">In this treatment, resin veneers can be customized to match the color and shape of the patient's natural teeth.</p>
 
-              <p className="my-4">Ofrecen una gran durabilidad y resistencia a las manchas, aunque requieren un cuidado adecuado y una higiene oral rigurosa para mantener su aspecto original a largo plazo.</p>
-              
+              <p className="my-4">They offer great durability and resistance to staining, although they require proper care and rigorous oral hygiene to maintain their original appearance in the long term.</p>
+         
             </div>
 
             <div className="text-center my-5">
 
-              <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
+              <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Schedule your Appointment!</a>
 
             </div>
     </main>

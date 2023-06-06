@@ -3,12 +3,12 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
 import bichec from "../../../../public/img/media/bichectomia.jpg"
-import Header from '~/components/header'
+import Sidebar from "../../../components/sidebarEn"
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Bichectomía',
-    description: 'Nova Odonto - Bichectomía'
+    title: 'Nova Odonto - Bichectomy',
+    description: 'Nova Odonto - Bichectomy'
   }
 }
 
@@ -31,10 +31,12 @@ const Bichectomía = () => {
 
   return (
     <>
-    <Header/>
+      <div className="header">
+       <Sidebar/>
+      </div>
     <main className="contenedor">
 
-      <h2 className="heading mb-1">Bichectomía</h2>
+      <h2 className="heading mb-1">Bichectomy</h2>
 
       <div className="text-center my-5">
         <img className="w-50" src={bichec} alt="" />
@@ -42,17 +44,17 @@ const Bichectomía = () => {
     
         <div className="text-center quees contenedor">
 
-            <h1 className="font-weight-bold my-5">¿En qué Consiste?</h1>
+        <h1 className="font-weight-bold my-5">What is it?</h1>
 
-            <p className="my-4">La bichectomía es un procedimiento quirúrgico realizado en odontología para reducir el tamaño de las mejillas. Consiste en la extracción de las bolsas de grasa llamadas bolas de Bichat, que se encuentran en las mejillas y pueden dar una apariencia redondeada al rostro.</p>
+          <p className="my-4">Bichectomy is a surgical procedure performed in dentistry to reduce the size of the cheeks. It involves the removal of fat pads called Bichat's fat pads, which are located in the cheeks and can give a rounded appearance to the face.</p>
 
-            <p className="my-4">La bichectomía es especialmente beneficiosa para aquellos pacientes que desean afinar sus rasgos faciales y lograr un aspecto más armónico y equilibrado. Es un procedimiento ambulatorio, con una recuperación rápida y mínimas molestias postoperatorias. </p>
+          <p className="my-4">Bichectomy is particularly beneficial for patients who wish to refine their facial features and achieve a more harmonious and balanced look. It is an outpatient procedure with a quick recovery time and minimal postoperative discomfort.</p>
 
         </div>
 
           <div className="text-center my-5">
 
-            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
+            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Schedule your Appointment!</a>
 
            </div>
 

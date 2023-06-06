@@ -45,14 +45,14 @@ const Sidebar = () => {
                         Services
                         </Link>
                             <div className="dropdown-menu text-center mx-5 bg-black5" aria-labelledby="navbarDropdown">
-                                <Link className="dropdown-item text-white mb-3 fs-2" to='https://novaodonto.vercel.app/servicios/diseñoEn'>Smile Design</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/ortodonciaEn'>Orthodontics</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/acidoEn'>Hyaluronic Acid</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/botoxEn'>Botox</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/rehabilitacionEn'>Oral Rehabilitation</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/bichectomiaEn'>Bichectomy</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/endodonciaEn'>Endodontics</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/servicios/cirugiaEn'>Oral Surgery</Link>
+                                <Link className="dropdown-item text-white mb-3 fs-2" to='https://novaodonto.vercel.app/en/servicios/diseñoEn'>Smile Design</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/en/servicios/ortodonciaEn'>Orthodontics</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/en/servicios/acidoEn'>Hyaluronic Acid</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/en/servicios/botoxEn'>Botox</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/en/servicios/rehabilitacionEn'>Oral Rehabilitation</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/en/servicios/bichectomiaEn'>Bichectomy</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/en/servicios/endodonciaEn'>Endodontics</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='https://novaodonto.vercel.app/en/servicios/cirugiaEn'>Oral Surgery</Link>
                             </div>
                         </li>
 

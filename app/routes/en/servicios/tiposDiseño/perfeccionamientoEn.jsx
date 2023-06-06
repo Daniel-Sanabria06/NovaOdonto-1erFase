@@ -3,12 +3,12 @@ import { useEffect } from 'react'
 import imagenp1 from '../../../../../public/img/perfeccionamiento/Image.jpeg'
 import imagenp2 from '../../../../../public/img/perfeccionamiento/Image1.jpeg'
 import imagenp3 from '../../../../../public/img/perfeccionamiento/image2.jpeg'
-import Header from '~/components/header'
+import Sidebar from "../../../../components/sidebarEn"
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Perfeccionamiento Dental',
-    description: 'Nova Odonto - Perfeccionamiento Dental'
+    title: 'Nova Odonto - Dental Improvement',
+    description: 'Nova Odonto - Dental Improvement'
   }
 }
 
@@ -24,10 +24,12 @@ const perfeccionamiento = () => {
 
   return (
     <>
-    <Header/>
+      <div className="header">
+       <Sidebar/>
+      </div>
     <main className="contenedor">
 
-      <h2 className="heading mb-5">Perfeccionamiento Dental</h2>
+      <h2 className="heading mb-5">Dental Improvement</h2>
 
       <div className="contenedor text-center w-50 my-5">
 
@@ -60,21 +62,21 @@ const perfeccionamiento = () => {
 
             <div className="text-center quees contenedor">
 
-              <h1 className="font-weight-bold">¿Qué es el Perfeccionamiento Dental?</h1>
+            <h1 className="font-weight-bold">What is Dental Enhancement?</h1>
 
-              <p className="my-4">El perfeccionamiento dental es un conjunto de procedimientos odontológicos diseñados para mejorar la estética y la función de la sonrisa. Este enfoque personalizado aborda una variedad de problemas dentales, como malposiciones, desgastes, fracturas, manchas y asimetrías.</p>
+            <p className="my-4">Dental enhancement is a set of dental procedures designed to improve the aesthetics and function of the smile. This personalized approach addresses a variety of dental issues such as misalignments, wear, fractures, stains, and asymmetries.</p>
 
-              <p className="my-4">Mediante el perfeccionamiento dental, se pueden utilizar diferentes técnicas y tratamientos, como carillas, coronas, implantes, ortodoncia, blanqueamiento dental y restauraciones estéticas, para lograr resultados óptimos. El objetivo es crear una sonrisa armónica, equilibrada y natural que resalte la belleza de cada paciente.</p>
-              
-              <p className="my-4">El perfeccionamiento dental no solo mejora la apariencia estética, sino que también puede proporcionar beneficios funcionales y de salud bucal. Al corregir problemas de alineación y mordida, se pueden prevenir desgastes adicionales, problemas de articulación y dificultades para hablar o comer.</p>
-             
-              <p className="my-4">Si deseas obtener una sonrisa perfecta y saludable, el perfeccionamiento dental puede ser la solución ideal.</p>
+            <p className="my-4">Through dental enhancement, different techniques and treatments can be utilized, including veneers, crowns, implants, orthodontics, teeth whitening, and aesthetic restorations, to achieve optimal results. The goal is to create a harmonious, balanced, and natural smile that enhances the beauty of each patient.</p>
 
+            <p className="my-4">Dental enhancement not only improves aesthetic appearance but can also provide functional and oral health benefits. By correcting alignment and bite issues, additional wear, joint problems, and difficulties with speech or eating can be prevented.</p>
+
+            <p className="my-4">If you desire a perfect and healthy smile, dental enhancement may be the ideal solution.</p>
+           
             </div>
 
             <div className="text-center my-5">
 
-              <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
+              <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Schedule your Appointment!</a>
 
             </div>
       

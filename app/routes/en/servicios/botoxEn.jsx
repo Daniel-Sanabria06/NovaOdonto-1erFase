@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
 import botox from "../../../../public/img/media/botox.jpg"
-import Header from '~/components/header'
+import Sidebar from "../../../components/sidebarEn"
 
 export function meta() {
   return {
@@ -32,7 +32,9 @@ const Botox = () => {
 
   return (
     <>
-    <Header/>
+      <div className="header">
+       <Sidebar/>
+      </div>
     <main className="contenedor">
 
       <h2 className="heading mb-1">Botox</h2>
@@ -43,17 +45,17 @@ const Botox = () => {
     
         <div className="text-center quees contenedor">
 
-            <h1 className="font-weight-bold my-5">¿Qué es Botox?</h1>
+         <h1 className="font-weight-bold my-5">What is Botox?</h1>
 
-            <p className="m-4">El Botox, o toxina botulínica, se utiliza para tratar diversos problemas relacionados con la salud bucal y facial. Esta sustancia se aplica en pequeñas dosis en ciertos puntos específicos para relajar los músculos faciales y obtener resultados sorprendentes.</p>
+          <p className="m-4">Botox, or botulinum toxin, is used to treat various oral and facial health-related issues. This substance is applied in small doses at specific points to relax facial muscles and achieve remarkable results.</p>
 
-            <p className="m-4">Se emplea para tratar el bruxismo, una afección en la que se aprietan o rechinan los dientes involuntariamente. Gracias a su capacidad para relajar los músculos de la mandíbula, el Botox ayuda a reducir la tensión y el desgaste dental asociados a esta condición.</p>
-
+          <p className="m-4">It is used to treat bruxism, a condition characterized by the involuntary grinding or clenching of teeth. By relaxing the jaw muscles, Botox helps reduce the tension and dental wear associated with this condition.</p>
+          
         </div>
 
           <div className="text-center my-5">
 
-            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
+            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Schedule your Appointment!</a>
 
            </div>
 
