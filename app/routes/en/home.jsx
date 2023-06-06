@@ -2,24 +2,24 @@ import { useLoaderData } from "react-router"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from "react-router-dom"
-import Header from '~/components/header'
-import AlertaPromocion from "../components/alertaPromocion"
-import ortodoncia from "../../public/img/media/ortodoncia.jpg"
-import acido from "../../public/img/media/acido.jpg"
-import endodoncia from "../../public/img/media/endodoncia.jpg"
-import botox from "../../public/img/media/botox.jpg"
-import cirugia from "../../public/img/media/cirugia.jpg"
-import rehabilitacion from "../../public/img/media/rehabilitacion.jpg"
-import bichectomia from "../../public/img/media/bichectomia.jpg"
-import banner from '../../public/img/banner.jpeg'
-import diseño from '../../public/img/media/diseñosonrisa.jpg'
-import diseñoi1 from '../../public/img/clientesdiseño/Image1.jpeg'
+import AlertaPromocion from "../../components/alertaPromocion"
+import ortodoncia from "../../../public/img/media/ortodoncia.jpg"
+import acido from "../../../public/img/media/acido.jpg"
+import endodoncia from "../../../public/img/media/endodoncia.jpg"
+import botox from "../../../public/img/media/botox.jpg"
+import cirugia from "../../../public/img/media/cirugia.jpg"
+import rehabilitacion from "../../../public/img/media/rehabilitacion.jpg"
+import bichectomia from "../../../public/img/media/bichectomia.jpg"
+import banner from '../../../public/img/banner.jpeg'
+import diseño from '../../../public/img/media/diseñosonrisa.jpg'
+import diseñoi1 from '../../../public/img/clientesdiseño/Image1.jpeg'
 import styles from '~/styles/marcas.css'
+import Sidebar from "../../components/sidebarEn"
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Inicio',
-    description: 'Nova Odonto - Inicio'
+    title: 'Nova Odonto - Home',
+    description: 'Nova Odonto - Home'
   }
 }
 
@@ -45,8 +45,11 @@ const Index = () => {
 
   return (
   <>
+  <div className="header">
+   <Sidebar/>
+  </div>
 
-  <Header/>
+
 
     <main className="contenedor">
 
@@ -63,24 +66,24 @@ const Index = () => {
             <Link className='marca text-center my-auto' to="/servicios/diseño">
               <img src={diseñoi1} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
-                  <p className='distintivo'>Diseño de Sonrisa</p>
-                  <p className='texto'>Más Información</p>
+                  <p className='distintivo'>Smile Design</p>
+                  <p className='texto'>More Information</p>
               </div>
              </Link>
           
             <Link className='marca text-center' to="/servicios/ortodoncia">
               <img src={ortodoncia} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
-                  <p className='distintivo'>Ortodoncia</p>
-                  <p className='texto'>Más Información</p>
+                  <p className='distintivo'>Orthodontics</p>
+                  <p className='texto'>More Information</p>
               </div>
             </Link>
           
             <Link className='marca text-center' to="/servicios/acido">
               <img src={acido} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
-                  <p className='distintivo'>Ácido Hialurónico</p>
-                  <p className='texto'>Más Información</p>
+                  <p className='distintivo'>Hyaluronic Acid</p>
+                  <p className='texto'>More Information</p>
               </div>
             </Link>  
              
@@ -89,39 +92,39 @@ const Index = () => {
               <img src={botox} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Botox</p>
-                  <p className='texto'>Más Información</p>
+                  <p className='texto'>More Information</p>
               </div>
             </Link> 
 
             <Link className='marca text-center' to="/servicios/rehabilitacion">
               <img src={rehabilitacion} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
-                  <p className='distintivo'>Rehabilitación Oral</p>
-                  <p className='texto'>Más Información</p>
+                  <p className='distintivo'>Oral Rehabilitation</p>
+                  <p className='texto'>More Information</p>
               </div>
             </Link> 
 
             <Link className='marca text-center' to="/servicios/bichectomia">
               <img src={bichectomia} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
-                  <p className='distintivo'>Bichectomía</p>
-                  <p className='texto'>Más Información</p>
+                  <p className='distintivo'>Bichectomy</p>
+                  <p className='texto'>More Information</p>
               </div>
             </Link> 
 
             <Link className='marca text-center' to="/servicios/endodoncia">
               <img src={endodoncia} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
-                  <p className='distintivo'>Endodoncia</p>
-                  <p className='texto'>Más Información</p>
+                  <p className='distintivo'>Endodontic</p>
+                  <p className='texto'>More Information</p>
               </div>
             </Link> 
 
             <Link className='marca text-center' to="/servicios/cirugia">
               <img src={cirugia} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
-                  <p className='distintivo'>Cirugías Orales</p>
-                  <p className='texto'>Más Información</p>
+                  <p className='distintivo'>Oral Surgeries</p>
+                  <p className='texto'>More Information</p>
               </div>
             </Link> 
 

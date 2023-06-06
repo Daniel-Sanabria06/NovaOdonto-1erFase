@@ -1,6 +1,7 @@
 import { Link } from "@remix-run/react"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import Header from '~/components/header'
 import cliente1 from '../../public/img/clientes satisfechos/1.jpeg'
 import cliente2 from '../../public/img/clientes satisfechos/2.jpeg'
 import cliente3 from '../../public/img/clientes satisfechos/3.jpeg'
@@ -36,7 +37,11 @@ const ClientesFelices = () => {
   }, [location.pathname])
 
   return (
+
+    <>
     
+    <Header/>
+
     <main className="contenedor">
 
       <h2 className="heading mb-5">Clientes Felices</h2>
@@ -78,6 +83,7 @@ const ClientesFelices = () => {
         </div>
 
     </main>
+    </>
   )
 }
 

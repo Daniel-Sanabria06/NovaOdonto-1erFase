@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import ciru from "../../../public/img/media/cirugia.jpg"
 import styles from '~/styles/marcas.css'
+import Header from '~/components/header'
 
 export function meta() {
   return {
@@ -32,6 +33,9 @@ const Cirugia = () => {
 
   return (
     
+    <>
+    <Header/>
+
     <main className="contenedor">
 
       <h2 className="heading mb-1">Cirugías Orales</h2>
@@ -44,9 +48,9 @@ const Cirugia = () => {
     <div className="my-5 contenedor text-center">
       <p className="my-5 font-weight-bold">Extracción de Cordales – Injerto de Hueso – Frenillectomía Gingivoplastia (recorte de encía) – Implantología.</p>
     </div>
-
       
     </main>
+    </>
   )
 }
 

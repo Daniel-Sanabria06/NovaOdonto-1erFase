@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import Header from '~/components/header'
 
 export function meta() {
   return {
@@ -20,6 +21,8 @@ const Contacto = () => {
     //TODO: Poner bien los numeros de contacto
 
   return (
+    <>
+    <Header/>
     
     <main className="contenedor text-center">
 
@@ -63,6 +66,7 @@ const Contacto = () => {
 
       </div>
     </main>
+    </>
   )
 }
 

@@ -555,3 +555,19 @@
   .imagenContenido{
     border-radius: 10px;
   }
+
+
+  .botonWa {
+    right: 20px;
+    bottom: 15px;
+    position: fixed;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+    .bandera {
+      width: 50px;
+    }
+  
+

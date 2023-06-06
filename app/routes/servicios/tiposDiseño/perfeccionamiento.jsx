@@ -1,7 +1,10 @@
 import Ayd from "../../../components/ayd"
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
-import perfec from '../../../../public/img/media/perfeccionamiento.jpeg'
+import imagenp1 from '../../../../public/img/perfeccionamiento/Image.jpeg'
+import imagenp2 from '../../../../public/img/perfeccionamiento/Image1.jpeg'
+import imagenp3 from '../../../../public/img/perfeccionamiento/image2.jpeg'
+import Header from '~/components/header'
 
 export function meta() {
   return {
@@ -21,13 +24,37 @@ const perfeccionamiento = () => {
   //TODO: Imagen
 
   return (
+    <>
+    <Header/>
     <main className="contenedor">
 
       <h2 className="heading mb-5">Perfeccionamiento Dental</h2>
 
-      <div className="text-center">
-        <img className="w-50" src={perfec} alt="" />
-      </div>
+      <div className="contenedor text-center w-50 my-5">
+
+        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img className="d-block w-100" src={imagenp1} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagenp2} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagenp3} alt=""/>
+            </div>
+          </div>
+          <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
+          </a>
+          <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
+          </a>
+        </div>
+
+        </div>
       
 
         <hr className="my-5" />
@@ -53,6 +80,7 @@ const perfeccionamiento = () => {
             </div>
       
     </main>
+    </>
   )
 }
 

@@ -1,7 +1,15 @@
 import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import reha from "../../../public/img/media/rehabilitacion.jpg"
+import Header from '~/components/header'
+import imagenr1 from '../../../public/img/rehabilitacion/image1.jpeg'
+import imagenr2 from '../../../public/img/rehabilitacion/image2.jpeg'
+import imagenr3 from '../../../public/img/rehabilitacion/image3.jpeg'
+import imagenr4 from '../../../public/img/rehabilitacion/image4.jpeg'
+import imagenr5 from '../../../public/img/rehabilitacion/image5.jpeg'
+import imagenr6 from '../../../public/img/rehabilitacion/image6.jpeg'
+import imagenr7 from '../../../public/img/rehabilitacion/image7.jpeg'
+
 
 import styles from '~/styles/marcas.css'
 
@@ -33,13 +41,46 @@ const rehabilitacion = () => {
 
   return (
     
+    <>
+    <Header/>
     <main className="contenedor">
 
       <h2 className="heading mb-1">Rehabilitación Oral</h2>
 
-      <div className="text-center my-5">
-        <img className="w-50" src={reha} alt="" />
-      </div>
+      <div className="contenedor text-center w-50 my-5">
+
+        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img className="d-block w-100" src={imagenr1} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagenr2} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagenr3} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagenr5} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagenr6} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagenr7} alt=""/>
+            </div>
+          </div>
+          <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
+          </a>
+          <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
+          </a>
+        </div>
+
+        </div>
 
         <div className="text-center quees contenedor">
 
@@ -58,6 +99,7 @@ const rehabilitacion = () => {
            </div>
 
     </main>
+    </>
   )
 }
 

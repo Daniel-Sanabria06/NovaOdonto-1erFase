@@ -1,7 +1,11 @@
 
-import Ayd from "../../../components/ayd"
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
+import imagen1 from '../../../../public/img/lentes/Image.jpeg'
+import imagen2 from '../../../../public/img/lentes/image2.jpeg'
+import imagen3 from '../../../../public/img/lentes/image3.jpeg'
+import imagen4 from '../../../../public/img/lentes/image4.jpeg'
+import Header from '~/components/header'
 
 export function meta() {
   return {
@@ -21,13 +25,40 @@ const lentesCeramicos = () => {
   //TODO: Imagen
 
   return (
+    <>
+    <Header/>
     <main className="contenedor">
 
       <h2 className="heading mb-5">Lentes Cerámicos</h2>
 
-      <div className="text-center">
-        <img className="w-50" src="https://staticnew-prod.topdoctors.cl/files/Image/large/d529beb01e52ad94e7c4a112cbc0fee9.jpeg" alt="" />
-      </div>
+      <div className="contenedor text-center w-50 my-5">
+
+        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img className="d-block w-100" src={imagen1} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagen2} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagen3} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={imagen4} alt=""/>
+            </div>
+          </div>
+          <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
+          </a>
+          <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
+          </a>
+        </div>
+
+        </div>
 
         <hr className="my-5" />
 
@@ -48,6 +79,7 @@ const lentesCeramicos = () => {
             </div>
       
     </main>
+    </>
   )
 }
 

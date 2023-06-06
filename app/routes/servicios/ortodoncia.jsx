@@ -3,6 +3,7 @@ import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
+import Header from '~/components/header'
 import brackets0 from '../../../public/img/media/brackets0.jpg'
 import brackets1 from '../../../public/img/media/BRACKETS.jpg'
 import brackets2 from '../../../public/img/media/bracketsCeramicos.jpg'
@@ -37,6 +38,9 @@ const Ortodoncia = () => {
 
   return (
     
+    <>
+    <Header/>
+
     <main className="contenedor">
 
       <h2 className="heading mb-5">Ortodoncia</h2>
@@ -94,6 +98,7 @@ const Ortodoncia = () => {
           </div>
 
     </main>
+    </>
   )
 }
 

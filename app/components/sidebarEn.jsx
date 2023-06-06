@@ -2,6 +2,8 @@ import { Link } from "@remix-run/react"
 import logo from '../../public/img/logoNova.jpeg'
 import Idioma from "./idioma"
 
+//TODO: cambiar 3 links para ingles
+
 const Sidebar = () => {
   return (
     <>
@@ -10,7 +12,7 @@ const Sidebar = () => {
 
             <div className="col ml-4">
                <div className="ml-1">
-                    <Link to='/' className="text-center">
+                    <Link to='en/home' className="text-center">
                     <img className='logo mt-2' src={logo} alt="imagen logo"/>
                     </Link>
                 </div>
@@ -35,35 +37,35 @@ const Sidebar = () => {
                     <hr className="hr1"/>
 
                     <li className="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
-                        <Link className="nav-link text-white" to='/'>Inicio</Link >
+                        <Link className="nav-link text-white" to='/'>Home</Link >
                     </li>
 
                     <li className="nav-item dropdown" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
                         <Link className="text-white nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Servicios
+                        Services
                         </Link>
                             <div className="dropdown-menu text-center mx-5 bg-black5" aria-labelledby="navbarDropdown">
-                                <Link className="dropdown-item text-white mb-3 fs-2" to='/servicios/diseño'>Diseño Sonrisa</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/ortodoncia'>Ortodoncia</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/acido'>Ácido Hialurónico</Link>
+                                <Link className="dropdown-item text-white mb-3 fs-2" to='/servicios/diseño'>Smile Design</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/ortodoncia'>Orthodontics</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/acido'>Hyaluronic Acid</Link>
                                 <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/botox'>Botox</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/rehabilitacion'>Rehabilitación Oral</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/bichectomia'>Bichectomía</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/endodoncia'>Endodoncia</Link>
-                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/cirugia'>Cirugía Oral</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/rehabilitacion'>Oral Rehabilitation</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/bichectomia'>Bichectomy</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/endodoncia'>Endodontics</Link>
+                                <Link className="dropdown-item text-white my-3 fs-2" to='/servicios/cirugia'>Oral Surgery</Link>
                             </div>
                         </li>
 
                         <li className="nav-item"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
-                        <Link className="nav-link text-white" to='/contacto'>Contacto</Link >
+                        <Link className="nav-link text-white" to='/contacto'>Contact</Link >
                         </li>
 
                         <li className="nav-item"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
-                        <Link className="nav-link text-white" to='/clientesFelices'>Clientes Felices</Link >
+                        <Link className="nav-link text-white" to='/clientesFelices'>Happy Customers</Link >
                         </li>
 
                         <li className="nav-item"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
-                        <Link className="nav-link text-white" target="_blank" rel="noopener noreferrer" to='https://maps.app.goo.gl/vMNYGNkX91rn1VaT7?g_st=iw'>¿Cómo llegar?</Link >
+                        <Link className="nav-link text-white" target="_blank" rel="noopener noreferrer" to='https://maps.app.goo.gl/vMNYGNkX91rn1VaT7?g_st=iw'>How to get there?</Link >
                         </li>
 
                         <Idioma/>

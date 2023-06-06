@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import endodo from "../../../public/img/media/endodoncia.jpg"
 import styles from '~/styles/marcas.css'
+import Header from '~/components/header'
 
 export function meta() {
   return {
@@ -31,7 +32,8 @@ const Endodoncia = () => {
   //TODO: imagenes Endodoncia y texto
 
   return (
-    
+    <>
+   <Header/> 
     <main className="contenedor">
 
       <h2 className="heading mb-1">Endodoncia</h2>
@@ -55,9 +57,8 @@ const Endodoncia = () => {
             <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
 
            </div>
-
-      
     </main>
+    </>
   )
 }
 

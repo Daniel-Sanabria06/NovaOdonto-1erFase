@@ -1,6 +1,7 @@
 import Ayd from "../../../components/ayd"
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
+import Header from '~/components/header'
 
 export function meta() {
   return {
@@ -21,6 +22,8 @@ const aclaramiento = () => {
 
 
   return (
+    <>
+    <Header/>
     <main className="contenedor">
 
       <h2 className="heading mb-5">Aclaramiento Dental</h2>
@@ -48,6 +51,7 @@ const aclaramiento = () => {
             </div>
       
     </main>
+    </>
   )
 }
 

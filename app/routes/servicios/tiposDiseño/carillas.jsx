@@ -3,6 +3,7 @@ import Ayd from "../../../components/ayd"
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
 import carillas from '../../../../public/img/media/carillas.jpg'
+import Header from '~/components/header'
 
 export function meta() {
   return {
@@ -22,6 +23,8 @@ const Carillas = () => {
   //TODO: Imagen
 
   return (
+    <>
+    <Header/>
     <main className="contenedor">
 
       <h2 className="heading mb-5">Carillas en Resina</h2>
@@ -48,8 +51,8 @@ const Carillas = () => {
               <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
 
             </div>
-      
     </main>
+    </>
   )
 }
 

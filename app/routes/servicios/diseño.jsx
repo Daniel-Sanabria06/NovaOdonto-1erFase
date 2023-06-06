@@ -9,10 +9,11 @@ import diseño2 from '../../../public/img/clientesdiseño/image2.jpeg'
 import diseño3 from '../../../public/img/clientesdiseño/image3.jpeg'
 import diseño4 from '../../../public/img/clientesdiseño/image4.jpeg'
 import diseño5 from '../../../public/img/clientesdiseño/Image.jpeg'
-import lentes from '../../../public/img/media/lentes.jpg'
-import perfeccionamiento from '../../../public/img/media/perfeccionamiento.jpeg'
+import lentes from '../../../public/img/lentes/image2.jpeg'
+import imagenpd1 from '../../../public/img/perfeccionamiento/Image.jpeg'
 import { Link } from "react-router-dom"
 import Ayd from "../../components/ayd"
+import Header from '~/components/header'
 import styles from '~/styles/marcas.css'
 
 export function meta() {
@@ -45,6 +46,7 @@ const Diseño = () => {
   return (
 
    <>
+   <Header/>
 
       <main className="contenedor">  
 
@@ -109,7 +111,7 @@ const Diseño = () => {
             </p>
 
 
-            <div className="row text-center my-5">
+            <div className="row text-center d-flex align-items-center my-5">
               <div className="col-12 col-md-3 mb-5">
                 <Link className="text-decoration-none my-5" to="/">
                   <img src="https://i.postimg.cc/BnXw6RMW/teeth-whitening-after-1.jpg" alt="" />
@@ -119,7 +121,7 @@ const Diseño = () => {
               </div>
               <div className="col-12 col-md-3 mb-5">
                 <Link className="text-decoration-none">
-                  <img src={perfeccionamiento} alt="" />
+                  <img src={imagenpd1} alt="" />
                   <p className="pcarrusel enlacecarrusel my-5">Perfeccionamiento Dental</p>
                   <Link className='botonCita mb-5 mt-3' to="/servicios/tiposDiseño/perfeccionamiento">Ver Más</Link>
                 </Link>
