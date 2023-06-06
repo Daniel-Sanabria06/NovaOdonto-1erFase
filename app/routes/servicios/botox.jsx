@@ -4,6 +4,7 @@ import styles from '~/styles/marcas.css'
 import Ayd from "../../components/ayd"
 import botox from "../../../public/img/media/botox.jpg"
 import Header from '~/components/header'
+import Footer from '~/components/footer'
 
 export function meta() {
   return {
@@ -59,6 +60,7 @@ const Botox = () => {
            </div>
 
     </main>
+    <Footer/>
     </>
   )
 }

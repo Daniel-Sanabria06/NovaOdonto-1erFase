@@ -15,6 +15,7 @@ import diseño from '../../../public/img/media/diseñosonrisa.jpg'
 import diseñoi1 from '../../../public/img/clientesdiseño/Image1.jpeg'
 import styles from '~/styles/marcas.css'
 import Sidebar from "../../components/sidebarEn"
+import Footer from '~/components/footerEn'
 
 export function meta() {
   return {
@@ -63,7 +64,7 @@ const Index = () => {
 
           <div className="marcas-grid text-center mt-5">
           
-            <Link className='marca text-center my-auto' to="/servicios/diseño">
+            <Link className='marca text-center my-auto' to="/en/servicios/diseño">
               <img src={diseñoi1} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Smile Design</p>
@@ -71,7 +72,7 @@ const Index = () => {
               </div>
              </Link>
           
-            <Link className='marca text-center' to="/servicios/ortodoncia">
+            <Link className='marca text-center' to="/en/servicios/ortodoncia">
               <img src={ortodoncia} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Orthodontics</p>
@@ -79,7 +80,7 @@ const Index = () => {
               </div>
             </Link>
           
-            <Link className='marca text-center' to="/servicios/acido">
+            <Link className='marca text-center' to="/en/servicios/acido">
               <img src={acido} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Hyaluronic Acid</p>
@@ -88,7 +89,7 @@ const Index = () => {
             </Link>  
              
 
-            <Link className='marca text-center' to="/servicios/botox">
+            <Link className='marca text-center' to="/en/servicios/botox">
               <img src={botox} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Botox</p>
@@ -96,7 +97,7 @@ const Index = () => {
               </div>
             </Link> 
 
-            <Link className='marca text-center' to="/servicios/rehabilitacionEn">
+            <Link className='marca text-center' to="/en/servicios/rehabilitacionEn">
               <img src={rehabilitacion} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Oral Rehabilitation</p>
@@ -104,7 +105,7 @@ const Index = () => {
               </div>
             </Link> 
 
-            <Link className='marca text-center' to="/servicios/bichectomia">
+            <Link className='marca text-center' to="/en/servicios/bichectomia">
               <img src={bichectomia} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Bichectomy</p>
@@ -112,7 +113,7 @@ const Index = () => {
               </div>
             </Link> 
 
-            <Link className='marca text-center' to="/servicios/endodoncia">
+            <Link className='marca text-center' to="/en/servicios/endodoncia">
               <img src={endodoncia} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Endodontic</p>
@@ -120,7 +121,7 @@ const Index = () => {
               </div>
             </Link> 
 
-            <Link className='marca text-center' to="/servicios/cirugia">
+            <Link className='marca text-center' to="/en/servicios/cirugia">
               <img src={cirugia} className='marcaImagen' alt="Diseño en resina" />
               <div className='contenido'>
                   <p className='distintivo'>Oral Surgeries</p>
@@ -135,6 +136,7 @@ const Index = () => {
        
 
     </main>
+    <Footer/>
   </>
   )
 }

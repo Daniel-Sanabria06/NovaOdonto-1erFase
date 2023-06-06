@@ -2,6 +2,7 @@ import Ayd from "../../../components/ayd"
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
 import Header from '~/components/header'
+import Footer from '~/components/footer'
 
 export function meta() {
   return {
@@ -51,6 +52,7 @@ const aclaramiento = () => {
             </div>
       
     </main>
+    <Footer/>
     </>
   )
 }

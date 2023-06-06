@@ -4,6 +4,7 @@ import { useLocation } from 'react-router'
 import { useEffect } from 'react'
 import carillas from '../../../../public/img/media/carillas.jpg'
 import Header from '~/components/header'
+import Footer from '~/components/footer'
 
 export function meta() {
   return {
@@ -52,6 +53,7 @@ const Carillas = () => {
 
             </div>
     </main>
+    <Footer/>
     </>
   )
 }

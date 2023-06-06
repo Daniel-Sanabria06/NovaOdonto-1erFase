@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom'
 import ciru from "../../../../public/img/media/cirugia.jpg"
 import styles from '~/styles/marcas.css'
 import Sidebar from "../../../components/sidebarEn"
+import Footer from '~/components/footerEn'
 
 export function meta() {
   return {
@@ -52,6 +53,7 @@ const Cirugia = () => {
     </div>
       
     </main>
+    <Footer/>
     </>
   )
 }

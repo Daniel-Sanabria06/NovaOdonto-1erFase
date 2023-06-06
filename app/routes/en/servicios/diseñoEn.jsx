@@ -12,6 +12,7 @@ import lentes from '../../../../public/img/lentes/image2.jpeg'
 import imagenpd1 from '../../../../public/img/perfeccionamiento/Image.jpeg'
 import { Link } from "react-router-dom"
 import Sidebar from "../../../components/sidebarEn"
+import Footer from '~/components/footerEn'
 import styles from '~/styles/marcas.css'
 
 export function meta() {
@@ -172,6 +173,7 @@ const Diseño = () => {
           </div>
 
       </main>
+      <Footer/>
     </> 
   )
 }

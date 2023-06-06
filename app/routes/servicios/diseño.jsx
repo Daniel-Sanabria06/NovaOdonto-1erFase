@@ -12,6 +12,7 @@ import diseño5 from '../../../public/img/clientesdiseño/Image.jpeg'
 import lentes from '../../../public/img/lentes/image2.jpeg'
 import imagenpd1 from '../../../public/img/perfeccionamiento/Image.jpeg'
 import { Link } from "react-router-dom"
+import Footer from '~/components/footer'
 import Ayd from "../../components/ayd"
 import Header from '~/components/header'
 import styles from '~/styles/marcas.css'
@@ -172,6 +173,7 @@ const Diseño = () => {
           </div>
 
       </main>
+      <Footer/>
     </> 
   )
 }

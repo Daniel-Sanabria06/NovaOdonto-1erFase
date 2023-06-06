@@ -8,7 +8,7 @@ import brackets0 from '../../../public/img/media/brackets0.jpg'
 import brackets1 from '../../../public/img/media/BRACKETS.jpg'
 import brackets2 from '../../../public/img/media/bracketsCeramicos.jpg'
 import brackets3 from '../../../public/img/media/bracketsInvisibles.jpg'
-
+import Footer from '~/components/footer'
 
 export function meta() {
   return {
@@ -98,6 +98,7 @@ const Ortodoncia = () => {
           </div>
 
     </main>
+    <Footer/>
     </>
   )
 }

@@ -2,6 +2,7 @@ import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Header from '~/components/header'
+import Footer from '~/components/footer'
 import imagenr1 from '../../../public/img/rehabilitacion/image1.jpeg'
 import imagenr2 from '../../../public/img/rehabilitacion/image2.jpeg'
 import imagenr3 from '../../../public/img/rehabilitacion/image3.jpeg'
@@ -99,6 +100,7 @@ const rehabilitacion = () => {
            </div>
 
     </main>
+    <Footer/>
     </>
   )
 }

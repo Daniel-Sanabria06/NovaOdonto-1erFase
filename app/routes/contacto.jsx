@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Header from '~/components/header'
+import Footer from '~/components/footer'
 
 export function meta() {
   return {
@@ -66,6 +67,7 @@ const Contacto = () => {
 
       </div>
     </main>
+    <Footer/>
     </>
   )
 }

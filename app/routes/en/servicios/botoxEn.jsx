@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
 import botox from "../../../../public/img/media/botox.jpg"
 import Sidebar from "../../../components/sidebarEn"
+import Footer from '~/components/footerEn'
 
 export function meta() {
   return {
@@ -50,7 +51,7 @@ const Botox = () => {
           <p className="m-4">Botox, or botulinum toxin, is used to treat various oral and facial health-related issues. This substance is applied in small doses at specific points to relax facial muscles and achieve remarkable results.</p>
 
           <p className="m-4">It is used to treat bruxism, a condition characterized by the involuntary grinding or clenching of teeth. By relaxing the jaw muscles, Botox helps reduce the tension and dental wear associated with this condition.</p>
-          
+
         </div>
 
           <div className="text-center my-5">
@@ -60,6 +61,7 @@ const Botox = () => {
            </div>
 
     </main>
+    <Footer/>
     </>
   )
 }

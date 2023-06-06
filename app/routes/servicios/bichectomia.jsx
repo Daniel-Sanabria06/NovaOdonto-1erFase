@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
 import bichec from "../../../public/img/media/bichectomia.jpg"
 import Header from '~/components/header'
+import Footer from '~/components/footer'
 
 export function meta() {
   return {
@@ -57,6 +58,7 @@ const Bichectomía = () => {
            </div>
 
     </main>
+    <Footer/>
     </>
   )
 }

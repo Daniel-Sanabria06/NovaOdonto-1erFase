@@ -4,6 +4,7 @@ import styles from '~/styles/marcas.css'
 import Ayd from "../../components/ayd"
 import acido from "../../../public/img/media/acido.jpg"
 import Header from '~/components/header'
+import Footer from '~/components/footer'
 
 export function meta() {
   return {
@@ -61,6 +62,7 @@ const Acido = () => {
            </div>
 
     </main>
+    <Footer/>
     </>
   )
 }

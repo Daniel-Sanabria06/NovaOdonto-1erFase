@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from "react-router-dom"
 import Header from '~/components/header'
+import Footer from '~/components/footer'
 import AlertaPromocion from "../components/alertaPromocion"
 import ortodoncia from "../../public/img/media/ortodoncia.jpg"
 import acido from "../../public/img/media/acido.jpg"
@@ -129,9 +130,8 @@ const Index = () => {
           
           <hr />
 
-       
-
     </main>
+    <Footer/>
   </>
   )
 }

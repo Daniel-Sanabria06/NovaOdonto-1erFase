@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
 import acido from "../../../../public/img/media/acido.jpg"
 import Sidebar from "../../../components/sidebarEn"
+import Footer from '~/components/footerEn'
 
 export function meta() {
   return {
@@ -62,6 +63,7 @@ const Acido = () => {
            </div>
 
     </main>
+    <Footer/>
     </>
   )
 }

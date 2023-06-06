@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import endodo from "../../../public/img/media/endodoncia.jpg"
 import styles from '~/styles/marcas.css'
+import Footer from '~/components/footer'
 import Header from '~/components/header'
 
 export function meta() {
@@ -58,6 +59,7 @@ const Endodoncia = () => {
 
            </div>
     </main>
+    <Footer/>
     </>
   )
 }

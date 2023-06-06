@@ -5,6 +5,7 @@ import imagenp1 from '../../../../public/img/perfeccionamiento/Image.jpeg'
 import imagenp2 from '../../../../public/img/perfeccionamiento/Image1.jpeg'
 import imagenp3 from '../../../../public/img/perfeccionamiento/image2.jpeg'
 import Header from '~/components/header'
+import Footer from '~/components/footer'
 
 export function meta() {
   return {
@@ -80,6 +81,7 @@ const perfeccionamiento = () => {
             </div>
       
     </main>
+    <Footer/>
     </>
   )
 }
