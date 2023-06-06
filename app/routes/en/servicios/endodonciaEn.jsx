@@ -1,7 +1,6 @@
-import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import endodo from "../../../public/img/media/endodoncia.jpg"
+import endodo from "../../../../public/img/media/endodoncia.jpg"
 import styles from '~/styles/marcas.css'
 import Header from '~/components/header'
 

@@ -1,8 +1,6 @@
-
-import Ayd from "../../../components/ayd"
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
-import carillas from '../../../../public/img/media/carillas.jpg'
+import carillas from '../../../../../public/img/media/carillas.jpg'
 import Header from '~/components/header'
 
 export function meta() {

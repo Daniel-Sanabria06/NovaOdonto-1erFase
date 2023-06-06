@@ -1,18 +1,16 @@
 import { useLoaderData } from "react-router"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router'
-import AlertaPromocion from "../../components/alertaPromocion"
-import diseño from '../../../public/img/media/diseñosonrisa.jpg'
-import carillas from '../../../public/img/media/carillas.jpg'
-import diseño1 from '../../../public/img/clientesdiseño/Image1.jpeg'
-import diseño2 from '../../../public/img/clientesdiseño/image2.jpeg'
-import diseño3 from '../../../public/img/clientesdiseño/image3.jpeg'
-import diseño4 from '../../../public/img/clientesdiseño/image4.jpeg'
-import diseño5 from '../../../public/img/clientesdiseño/Image.jpeg'
-import lentes from '../../../public/img/lentes/image2.jpeg'
-import imagenpd1 from '../../../public/img/perfeccionamiento/Image.jpeg'
+import diseño from '../../../../public/img/media/diseñosonrisa.jpg'
+import carillas from '../../../../public/img/media/carillas.jpg'
+import diseño1 from '../../../../public/img/clientesdiseño/Image1.jpeg'
+import diseño2 from '../../../../public/img/clientesdiseño/image2.jpeg'
+import diseño3 from '../../../../public/img/clientesdiseño/image3.jpeg'
+import diseño4 from '../../../../public/img/clientesdiseño/image4.jpeg'
+import diseño5 from '../../../../public/img/clientesdiseño/Image.jpeg'
+import lentes from '../../../../public/img/lentes/image2.jpeg'
+import imagenpd1 from '../../../../public/img/perfeccionamiento/Image.jpeg'
 import { Link } from "react-router-dom"
-import Ayd from "../../components/ayd"
 import Header from '~/components/header'
 import styles from '~/styles/marcas.css'
 

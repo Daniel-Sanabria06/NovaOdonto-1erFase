@@ -1,8 +1,7 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
-import Ayd from "../../components/ayd"
-import acido from "../../../public/img/media/acido.jpg"
+import acido from "../../../../public/img/media/acido.jpg"
 import Header from '~/components/header'
 
 export function meta() {

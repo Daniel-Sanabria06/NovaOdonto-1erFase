@@ -1,19 +1,17 @@
-
-import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
 import Header from '~/components/header'
-import brackets0 from '../../../public/img/media/brackets0.jpg'
-import brackets1 from '../../../public/img/media/BRACKETS.jpg'
-import brackets2 from '../../../public/img/media/bracketsCeramicos.jpg'
-import brackets3 from '../../../public/img/media/bracketsInvisibles.jpg'
+import brackets0 from '../../../../public/img/media/brackets0.jpg'
+import brackets1 from '../../../../public/img/media/BRACKETS.jpg'
+import brackets2 from '../../../../public/img/media/bracketsCeramicos.jpg'
+import brackets3 from '../../../../public/img/media/bracketsInvisibles.jpg'
 
 
 export function meta() {
   return {
-    title: 'Nova Odonto - Ortodoncia',
-    description: 'Nova Odonto - Ortodoncia'
+    title: 'Nova Odonto - Orthodontics',
+    description: 'Nova Odonto - Orthodontics'
   }
 }
 
@@ -43,7 +41,7 @@ const Ortodoncia = () => {
 
     <main className="contenedor">
 
-      <h2 className="heading mb-5">Ortodoncia</h2>
+      <h2 className="heading mb-5">Orthodontics</h2>
 
      <div className="contenedor text-center">
      <img className="w-75" src={brackets0} alt="" />
@@ -52,39 +50,37 @@ const Ortodoncia = () => {
 
           <div className="text-center quees contenedor">
 
-             <h1 className="font-weight-bold my-5">¿Qué es la Ortodoncia?</h1>
+           <h1 className="font-weight-bold my-5">What is Orthodontics?</h1>
+           <p className="my-4">Orthodontics focuses on correcting and aligning the teeth and jaw to achieve a healthier and more aesthetic smile. It utilizes different techniques and devices, such as braces or clear aligners.</p>
 
-             <p className="my-4">La ortodoncia se enfoca en corregir y alinear los dientes y la mandíbula para lograr una sonrisa más saludable y estética. Utilizando diferentes técnicas y dispositivos, como brackets o alineadores transparentes.</p>
+           <p className="my-4">This treatment improves the appearance of the smile, corrects functional problems that can affect chewing, speech, and overall oral health. It also helps prevent future dental issues, such as excessive tooth wear, gum diseases, and jaw pain.</p>
 
-              <p className="my-4">Este tratamiento mejora la apariencia de la sonrisa, corrige problemas funcionales que pueden afectar la masticación, la fonética y la salud bucal en general. Además, prevenir futuros problemas dentales, como desgaste excesivo de los dientes, enfermedades de las encías y dolor en la mandíbula.</p>
-
-              <p className="my-4">El resultado final de la ortodoncia es una sonrisa alineada y armoniosa, que no solo mejora la confianza y la estética facial, sino también la función y la salud bucal en general.</p>
-
-            </div>
+           <p className="my-4">The ultimate goal of orthodontics is an aligned and harmonious smile, which not only enhances confidence and facial aesthetics but also improves overall oral function and health.</p>
+          </div>
 
             <div className="text-center my-5">
 
-            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
+            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">Schedule your Appointment</a>
 
             </div>
 
             <div className="contenedor my-5">
               
-              <p className="font-weight-bold text-center display-3 my-5">Tipos de Ortodoncia</p>
+              <p className="font-weight-bold text-center display-3 my-5">Types of Orthodontics</p>
 
               <div className="row text-center">
 
                   <div className="col-12 col-md-4 mb-5">
                     <img src={brackets1} alt="" />
-                    <p className="pcarrusel enlacecarrusel my-5">Brackets Metálicos</p>
+                    <p className="pcarrusel enlacecarrusel my-5">Metal Braces</p>
                   </div>
                   <div className="col-12 col-md-4 mb-5">
                     <img src={brackets2} alt="" />
-                    <p className="pcarrusel enlacecarrusel my-5">Brackets Invisibles</p>
+                    <p className="pcarrusel enlacecarrusel my-5">Invisible Braces</p>
                   </div>
                   <div className="col-12 col-md-4 mb-5">
                     <img src={brackets3} alt="" />
-                    <p className="pcarrusel enlacecarrusel my-5">Brackets Cerámicos</p>
+                    <p className="pcarrusel enlacecarrusel my-5">Ceramic Braces</p>
                   </div>
 
               </div>
@@ -93,7 +89,7 @@ const Ortodoncia = () => {
            
           <div className="text-center my-5">
 
-            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">¡Agenda tu cita!</a>
+            <a className='botonCita my-5' href="https://api.whatsapp.com/send?phone=573235248716" target="_blank" rel="noopener noreferrer">Schedule your Appointment</a>
 
           </div>
 

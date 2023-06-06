@@ -1,4 +1,4 @@
-import Ayd from "../../../components/ayd"
+import Ayd from "../../../../components/ayd"
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
 import Header from '~/components/header'

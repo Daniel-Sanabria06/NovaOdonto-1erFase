@@ -1,14 +1,13 @@
-import Ayd from "../../components/ayd"
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Header from '~/components/header'
-import imagenr1 from '../../../public/img/rehabilitacion/image1.jpeg'
-import imagenr2 from '../../../public/img/rehabilitacion/image2.jpeg'
-import imagenr3 from '../../../public/img/rehabilitacion/image3.jpeg'
-import imagenr4 from '../../../public/img/rehabilitacion/image4.jpeg'
-import imagenr5 from '../../../public/img/rehabilitacion/image5.jpeg'
-import imagenr6 from '../../../public/img/rehabilitacion/image6.jpeg'
-import imagenr7 from '../../../public/img/rehabilitacion/image7.jpeg'
+import imagenr1 from '../../../../public/img/rehabilitacion/image1.jpeg'
+import imagenr2 from '../../../../public/img/rehabilitacion/image2.jpeg'
+import imagenr3 from '../../../../public/img/rehabilitacion/image3.jpeg'
+import imagenr4 from '../../../../public/img/rehabilitacion/image4.jpeg'
+import imagenr5 from '../../../../public/img/rehabilitacion/image5.jpeg'
+import imagenr6 from '../../../../public/img/rehabilitacion/image6.jpeg'
+import imagenr7 from '../../../../public/img/rehabilitacion/image7.jpeg'
 
 
 import styles from '~/styles/marcas.css'

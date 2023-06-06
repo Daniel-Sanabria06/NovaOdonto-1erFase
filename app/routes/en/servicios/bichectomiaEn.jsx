@@ -1,8 +1,8 @@
-import Ayd from "../../components/ayd"
+
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '~/styles/marcas.css'
-import bichec from "../../../public/img/media/bichectomia.jpg"
+import bichec from "../../../../public/img/media/bichectomia.jpg"
 import Header from '~/components/header'
 
 export function meta() {

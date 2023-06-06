@@ -1,10 +1,10 @@
 
 import { useLocation } from 'react-router'
 import { useEffect } from 'react'
-import imagen1 from '../../../../public/img/lentes/Image.jpeg'
-import imagen2 from '../../../../public/img/lentes/image2.jpeg'
-import imagen3 from '../../../../public/img/lentes/image3.jpeg'
-import imagen4 from '../../../../public/img/lentes/image4.jpeg'
+import imagen1 from '../../../../../public/img/lentes/Image.jpeg'
+import imagen2 from '../../../../../public/img/lentes/image2.jpeg'
+import imagen3 from '../../../../../public/img/lentes/image3.jpeg'
+import imagen4 from '../../../../../public/img/lentes/image4.jpeg'
 import Header from '~/components/header'
 
 export function meta() {
