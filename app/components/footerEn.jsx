@@ -50,38 +50,38 @@ function Footer() {
                             <div className="row text-center">
 
                                 <div className="col-6 mt-3">
-                                <Link className='my-1' to="https://novaodonto.vercel.app/en/servicios/diseño">
+                                <Link className='my-1' to="https://novaodonto.vercel.app/en/servicios/diseñoEn">
                                     <p className='h5 my-4'>Smile Design</p>
                                 </Link>
 
-                                <Link to="https://novaodonto.vercel.app/servicios/en/ortodoncia">
+                                <Link to="https://novaodonto.vercel.app/servicios/en/ortodonciaEn">
                                     <p className='h5 my-4'>Orthodontics</p>
                                 </Link>
 
-                                <Link to="https://novaodonto.vercel.app/en/servicios/acido">
+                                <Link to="https://novaodonto.vercel.app/en/servicios/acidoEn">
                                     <p className='h5 my-4'>Hyaluronic Acid</p>
                                 </Link>
 
-                                <Link to="https://novaodonto.vercel.app/en/servicios/botox">
+                                <Link to="https://novaodonto.vercel.app/en/servicios/botoxEn">
                                     <p className='h5 my-4'>Botox</p>
                                 </Link>
 
                                 </div>
 
                                 <div className="col-6 mt-3">
-                                <Link to="https://novaodonto.vercel.app/en/servicios/rehabilitacion">
+                                <Link to="https://novaodonto.vercel.app/en/servicios/rehabilitacionEn">
                                     <p className='h5 my-4'>Rehabilitation</p>
                                 </Link>
 
-                                <Link to="https://novaodonto.vercel.app/en/servicios/bichectomia">
+                                <Link to="https://novaodonto.vercel.app/en/servicios/bichectomiaEn">
                                     <p className='h5 my-4'>Bichectomy</p>
                                 </Link>
 
-                                <Link to="https://novaodonto.vercel.app/en/servicios/endodoncia">
+                                <Link to="https://novaodonto.vercel.app/en/servicios/endodonciaEn">
                                     <p className='h5 my-4'>Endodontics</p>
                                 </Link>
 
-                                <Link to="https://novaodonto.vercel.app/en/servicios/cirugia">
+                                <Link to="https://novaodonto.vercel.app/en/servicios/cirugiaEn">
                                     <p className='h5 my-4'>Oral Surgery</p>
                                 </Link>
 
