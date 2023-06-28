@@ -3,6 +3,11 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Header from '~/components/header'
 import Footer from '~/components/footer'
+import primera from '../../public/img/clientes satisfechos/primera.jpeg'
+import segunda from '../../public/img/clientes satisfechos/segunda.jpeg'
+import tercera from '../../public/img/clientes satisfechos/tercera.jpeg'
+import cuarta from '../../public/img/clientes satisfechos/cuarta.jpeg'
+import quinta from '../../public/img/clientes satisfechos/quinta.jpeg'
 import cliente1 from '../../public/img/clientes satisfechos/1.jpeg'
 import cliente2 from '../../public/img/clientes satisfechos/2.jpeg'
 import cliente3 from '../../public/img/clientes satisfechos/3.jpeg'
@@ -48,7 +53,27 @@ const ClientesFelices = () => {
       <h2 className="heading mb-5">Clientes Felices</h2>
 
       <div className="marcas-grid text-center mt-5">
-          
+
+          <Link className='marca text-center'>
+            <img src={primera} className='marcaImagen' alt="Diseño en resina" />
+          </Link>
+
+          <Link className='marca text-center'>
+            <img src={segunda} className='marcaImagen' alt="Diseño en resina" />
+          </Link>
+
+          <Link className='marca text-center'>
+            <img src={tercera} className='marcaImagen' alt="Diseño en resina" />
+          </Link>
+
+          <Link className='marca text-center'>
+            <img src={cuarta} className='marcaImagen' alt="Diseño en resina" />
+          </Link>
+
+          <Link className='marca text-center'>
+            <img src={quinta} className='marcaImagen' alt="Diseño en resina" />
+          </Link>
+
           <Link className='marca text-center'>
             <img src={cliente1} className='marcaImagen' alt="Diseño en resina" />
           </Link>

@@ -9,6 +9,11 @@ import diseño3 from '../../../../public/img/clientesdiseño/image3.jpeg'
 import diseño4 from '../../../../public/img/clientesdiseño/image4.jpeg'
 import diseño5 from '../../../../public/img/clientesdiseño/Image.jpeg'
 import lentes from '../../../../public/img/lentes/image2.jpeg'
+import diseñoPrimer1 from '../../../../public/img/clientesdiseño/ImagePrimer.jpeg'
+import diseñoPrimer2 from '../../../../public/img/clientesdiseño/ImagePrimer2.jpeg'
+import diseñoPrimer3 from '../../../../public/img/clientesdiseño/ImagePrimer3.jpeg'
+import diseñoPrimer4 from '../../../../public/img/clientesdiseño/ImagePrimer4.jpeg'
+import diseñoPrimer5 from '../../../../public/img/clientesdiseño/ImagePrimer5.jpeg'
 import imagenpd1 from '../../../../public/img/perfeccionamiento/Image.jpeg'
 import { Link } from "react-router-dom"
 import Sidebar from "../../../components/sidebarEn"
@@ -53,6 +58,45 @@ const Diseño = () => {
 
         <h2 className="heading mb-5">Smile Design</h2>
 
+        <p className=" text-center">Results</p>
+
+        <div className="contenedor text-center w-75 my-5">
+
+          <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img className="d-block w-100" src={diseñoPrimer1} alt="First slide"/>
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100" src={diseñoPrimer3} alt="Second slide"/>
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100" src={diseñoPrimer5} alt="Third slide"/>
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100" src={diseñoPrimer4} alt="Third slide"/>
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100" src={diseñoPrimer2} alt="Third slide"/>
+              </div>
+            </div>
+            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
+
+          </div>
+
+
+
+
+
+
         <div className="contenedor text-center w-75 my-5">
 
           <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
@@ -84,6 +128,11 @@ const Diseño = () => {
           </div>
 
         </div>
+
+        <div className="text-center my-5">
+            <a className='botonCita my-5' href="https://novaodonto.vercel.app/clientesFelices">More Results</a>
+        </div>
+
 
         <hr className="my-5" />
 
