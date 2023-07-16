@@ -7,7 +7,6 @@ import diseño1 from '../../../../public/img/clientesdiseño/Image1.jpeg'
 import diseño2 from '../../../../public/img/clientesdiseño/image2.jpeg'
 import diseño3 from '../../../../public/img/clientesdiseño/image3.jpeg'
 import diseño4 from '../../../../public/img/clientesdiseño/image4.jpeg'
-import diseño5 from '../../../../public/img/clientesdiseño/Image.jpeg'
 import lentes from '../../../../public/img/lentes/image2.jpeg'
 import diseñoPrimer1 from '../../../../public/img/clientesdiseño/ImagePrimer.jpeg'
 import diseñoPrimer2 from '../../../../public/img/clientesdiseño/ImagePrimer2.jpeg'
@@ -112,9 +111,6 @@ const Diseño = () => {
               </div>
               <div className="carousel-item">
                 <img className="d-block w-100" src={diseño4} alt="Third slide"/>
-              </div>
-              <div className="carousel-item">
-                <img className="d-block w-100" src={diseño5} alt="Third slide"/>
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

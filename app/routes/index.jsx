@@ -24,6 +24,8 @@ import inicio5 from '../../public/img/media/inicio5.jpeg'
 import inicio6 from '../../public/img/media/inicio6.jpeg'
 import inicio7 from '../../public/img/media/inicio7.jpeg'
 import inicio8 from '../../public/img/media/inicio8.jpeg'
+import inicio9 from '../../public/img/media/inicio9.jpeg'
+import inicio10 from '../../public/img/media/inicio10.jpeg'
 
 import primera from '../../public/img/clientes satisfechos/primera.jpeg'
 import segunda from '../../public/img/clientes satisfechos/segunda.jpeg'
@@ -102,6 +104,12 @@ const Index = () => {
             </div>
             <div className="carousel-item">
               <img className="d-block w-100" src={inicio8} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={inicio9} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={inicio10} alt="Third slide"/>
             </div>
             <div className="carousel-item">
               <img className="d-block w-100" src={primera} alt="First slide"/>
