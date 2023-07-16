@@ -571,3 +571,14 @@
     }
   
 
+    .imagenScale {
+      transform: scale(1.5)
+    }
+
+    .imagenScale2 {
+      transform: scale(1.2)
+    }
+
+    .imagenScale3 {
+      transform: scale(1.2);
+    }

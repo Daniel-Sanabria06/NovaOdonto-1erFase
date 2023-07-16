@@ -66,19 +66,19 @@ const Diseño = () => {
           <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className="d-block w-100" src={diseñoPrimer1} alt="First slide"/>
+                <img className="imagenScale d-block w-100" src={diseñoPrimer1} alt="First slide"/>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100" src={diseñoPrimer3} alt="Second slide"/>
+                <img className="imagenScale2 d-block w-100" src={diseñoPrimer3} alt="Second slide"/>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100" src={diseñoPrimer5} alt="Third slide"/>
+                <img className="imagenScale3 d-block w-100" src={diseñoPrimer5} alt="Third slide"/>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100" src={diseñoPrimer4} alt="Third slide"/>
+                <img className="imagenScale2 d-block w-100" src={diseñoPrimer4} alt="Third slide"/>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100" src={diseñoPrimer2} alt="Third slide"/>
+                <img className="ImagenScale2 d-block w-100" src={diseñoPrimer2} alt="Third slide"/>
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -98,7 +98,7 @@ const Diseño = () => {
 
         <div className="contenedor text-center w-75 my-5">
 
-          <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+          <div id="carouselExampleControls2" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img className="d-block w-100" src={diseño1} alt="First slide"/>
@@ -116,11 +116,11 @@ const Diseño = () => {
                 <img className="d-block w-100" src={diseño5} alt="Third slide"/>
               </div>
             </div>
-            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <a className="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
               <span className="sr-only">Previous</span>
             </a>
-            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <a className="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
               <span className="carousel-control-next-icon" aria-hidden="true"></span>
               <span className="sr-only">Next</span>
             </a>

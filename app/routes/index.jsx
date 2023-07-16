@@ -15,6 +15,16 @@ import bichectomia from "../../public/img/media/bichectomia.jpg"
 import banner from '../../public/img/banner.jpeg'
 import diseño from '../../public/img/media/diseñosonrisa.jpg'
 import diseñoi1 from '../../public/img/clientesdiseño/Image1.jpeg'
+
+import primera from '../../public/img/clientes satisfechos/primera.jpeg'
+import segunda from '../../public/img/clientes satisfechos/segunda.jpeg'
+import tercera from '../../public/img/clientes satisfechos/tercera.jpeg'
+import cuarta from '../../public/img/clientes satisfechos/cuarta.jpeg'
+import quinta from '../../public/img/clientes satisfechos/quinta.jpeg'
+import cliente1 from '../../public/img/clientes satisfechos/1.jpeg'
+import cliente2 from '../../public/img/clientes satisfechos/2.jpeg'
+import cliente3 from '../../public/img/clientes satisfechos/3.jpeg'
+
 import styles from '~/styles/marcas.css'
 
 export function meta() {
@@ -50,12 +60,51 @@ const Index = () => {
   <Header/>
 
     <main className="contenedor">
+      <div className="text-center">
+        <p className="h4">Nuestros Resutados</p>
+        </div>
 
-    <div className="w-75 contenedor container text-center mx-auto imagenesCarrusel">
-      <img src={banner} className="" alt="..."/>
-    </div>
+    <div className="contenedor text-center w-75 mb-5">
 
-    
+        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img className="d-block w-100" src={primera} alt="First slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={segunda} alt="Second slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={tercera} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={cuarta} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={quinta} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={cliente1} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={cliente2} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={cliente3} alt="Third slide"/>
+            </div>
+          </div>
+          <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
+          </a>
+          <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
+          </a>
+        </div>
+
+        </div>
+
 
           <hr />
 
