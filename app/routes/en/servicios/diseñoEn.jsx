@@ -64,19 +64,19 @@ const Diseño = () => {
           <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className="d-block w-100" src={diseñoPrimer1} alt="First slide"/>
+                <img className="imagenScale d-block w-100" src={diseñoPrimer1} alt="First slide"/>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100" src={diseñoPrimer3} alt="Second slide"/>
+                <img className="imagenScaled-block w-100" src={diseñoPrimer3}  alt="Second slide"/>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100" src={diseñoPrimer5} alt="Third slide"/>
+                <img className="imagenScale d-block w-100" src={diseñoPrimer5} alt="Third slide"/>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100" src={diseñoPrimer4} alt="Third slide"/>
+                <img className="imagenScale2 d-block w-100" src={diseñoPrimer4}  alt="Third slide"/>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100" src={diseñoPrimer2} alt="Third slide"/>
+                <img className="imagenScale2 d-block w-100" src={diseñoPrimer2} alt="Third slide"/>
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
