@@ -2,13 +2,6 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Sidebar from "../../../components/sidebarEn"
 import Footer from '~/components/footerEn'
-import imagenr1 from '../../../../public/img/rehabilitacion/image1.jpeg'
-import imagenr2 from '../../../../public/img/rehabilitacion/image2.jpeg'
-import imagenr3 from '../../../../public/img/rehabilitacion/image3.jpeg'
-import imagenr4 from '../../../../public/img/rehabilitacion/image4.jpeg'
-import imagenr5 from '../../../../public/img/rehabilitacion/image5.jpeg'
-import imagenr6 from '../../../../public/img/rehabilitacion/image6.jpeg'
-import imagenr7 from '../../../../public/img/rehabilitacion/image7.jpeg'
 
 
 import styles from '~/styles/marcas.css'
@@ -40,8 +33,9 @@ const rehabilitacion = () => {
   //TODO: imagen y texto
 
   return (
-    
+   
     <>
+     {/* 
       <div className="header">
        <Sidebar/>
       </div>
@@ -102,6 +96,7 @@ const rehabilitacion = () => {
 
     </main>
     <Footer/>
+    */}
     </>
   )
 }

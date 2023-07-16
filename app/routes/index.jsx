@@ -16,6 +16,15 @@ import banner from '../../public/img/banner.jpeg'
 import diseño from '../../public/img/media/diseñosonrisa.jpg'
 import diseñoi1 from '../../public/img/clientesdiseño/Image1.jpeg'
 
+import inicio1 from '../../public/img/media/inicio1.jpeg'
+import inicio2 from '../../public/img/media/inicio2.jpeg'
+import inicio3 from '../../public/img/media/inicio3.jpeg'
+import inicio4 from '../../public/img/media/inicio4.jpeg'
+import inicio5 from '../../public/img/media/inicio5.jpeg'
+import inicio6 from '../../public/img/media/inicio6.jpeg'
+import inicio7 from '../../public/img/media/inicio7.jpeg'
+import inicio8 from '../../public/img/media/inicio8.jpeg'
+
 import primera from '../../public/img/clientes satisfechos/primera.jpeg'
 import segunda from '../../public/img/clientes satisfechos/segunda.jpeg'
 import tercera from '../../public/img/clientes satisfechos/tercera.jpeg'
@@ -68,7 +77,33 @@ const Index = () => {
 
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
+          
+
             <div className="carousel-item active">
+              <img className="d-block w-100" src={inicio1} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={inicio2} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={inicio3} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={inicio4} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={inicio5} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={inicio6} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={inicio7} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={inicio8} alt="Third slide"/>
+            </div>
+            <div className="carousel-item">
               <img className="d-block w-100" src={primera} alt="First slide"/>
             </div>
             <div className="carousel-item">
